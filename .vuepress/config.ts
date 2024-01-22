@@ -12,10 +12,10 @@ export default defineUserConfig({
     logo: "/logo.png",
     author: "Baiye959",
     authorAvatar: "/cat.jpg",
-    // docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
+    // docsRepo: "https://github.com/Baiye959/vuepress-reco2",
     // docsBranch: "main",
-    // docsDir: "example",
-    lastUpdatedText: "Last Update",
+    // docsDir: "docs",
+    // lastUpdatedText: "Last Update",
     // series 为原 sidebar
     // series: {
     //   "/docs/theme-reco/": [
