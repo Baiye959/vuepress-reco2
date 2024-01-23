@@ -21,3 +21,12 @@ rm -r ~/html
 mv ~/dist ~/html
 cp -rf ~/html /var/www
 ```
+
+本地的提交脚本如下，用`bash push.sh`执行：
+```bash
+#!/bin/bash
+yarn build
+git add .
+git commit -m "change"
+git push
+```
