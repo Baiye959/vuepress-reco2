@@ -1,4 +1,5 @@
 #!/bin/bash
 git pull
-mv .vuepress/dist/ ~/html
-sudo cp -rf ~/html/ /var/www/
+cp -rf .vuepress/dist/ ~
+mv -f ~/dist ~/html
+cp -rf ~/html /var/www
