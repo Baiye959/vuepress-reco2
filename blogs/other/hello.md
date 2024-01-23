@@ -55,11 +55,12 @@ git push
 deploy.sh内容如下：
 ```bash
 #!/bin/bash
+cd /root/vuepress-reco2
 git pull
 cp -rf .vuepress/dist/ ~
-rm -r ~/html
-mv ~/dist ~/html
-cp -rf ~/html /var/www
+rm -r /root/html
+mv /root/dist /root/html
+cp -rf /root/html /var/www
 ```
 编辑crontab要执行的命令:
 ```bash
@@ -67,10 +68,9 @@ vim /etc/crontab
 ```
 添加以下字段：
 ```
-0  0    * * *   root    /root/vuepress-reco2/deploy.sh
-0  12   * * *   root    /root/vuepress-reco2/deploy.sh
+0  *   * * *   root   bash /root/vuepress-reco2/deploy.sh
 ```
-意思是每天的0点和12点都执行脚本deploy.sh，以下是官方样例：
+意思是每小时的0分都执行脚本deploy.sh，以下是官方样例：
 ```
 # Example of job definition:
 # .---------------- minute (0 - 59)
@@ -81,3 +81,9 @@ vim /etc/crontab
 # |  |  |  |  |
 # *  *  *  *  * user-name command to be executed
 ```
+
+开启crontab日记：
+```
+sudo vim /etc/rsyslog.d/50-default.conf 
+```
+将cron相关行的#删掉
