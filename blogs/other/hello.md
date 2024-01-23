@@ -25,8 +25,10 @@ cp -rf ~/html /var/www
 本地的提交脚本如下，用`bash push.sh`执行：
 ```bash
 #!/bin/bash
-yarn build
+# yarn build
 git add .
 git commit -m "change"
 git push
 ```
+这里不知道为什么用脚本执行`yarn build`的时候会报错"Yarn requires Node.js 4.0 or higher to be installed."，直接在终端执行可以成功。
+执行`yarn build`报错"Error: EBUSY: resource busy or locked, unlink 'C:\CodeSpace\vuepress-reco2\.vuepress\dist\assets\app-zpDucuRP.js'"，可以执行`yarn cache clean`解决。
