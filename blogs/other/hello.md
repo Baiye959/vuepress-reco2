@@ -3,6 +3,7 @@ title: 欢迎来到Baiye959的博客！
 date: 2024/01/22
 categories:
  - other
+sticky: 1
 ---
 本站使用[vuepress-theme-reco2.x](https://vuepress-theme-reco.recoluan.com/)主题，参考链接如下：
 1. [个人博客搭建遇坑流程のVuePress2 📕](https://juejin.cn/post/7140934570370662407)
@@ -11,17 +12,30 @@ categories:
 4. [【啰里啰嗦】一步步搭建 VuePress 及优化](https://www.bilibili.com/video/BV1vb411m7NY)
 
 建议先看链接4的P1把本地环境搭建好，再跟着链接1和链接2搭建[vuepress-theme-reco2.x](https://vuepress-theme-reco.recoluan.com/)博客，最后跟着链接3把博客部署到云服务器上。
+<br/>
+这里发现链接3的部署是在CentOS服务器上，而CentOS7不支持[vuepress-theme-reco2.x](https://vuepress-theme-reco.recoluan.com/)所需的node16，先使用下文的应急方案。
 
-本站部署暂未完成，先使用apache2+定时执行git pull脚本解决，deploy.sh内容如下：
-```bash
-#!/bin/bash
-git pull
-cp -rf .vuepress/dist/ ~
-rm -r ~/html
-mv ~/dist ~/html
-cp -rf ~/html /var/www
-```
+## 👾使用感受
+优点：美观简洁、容易上手，而且使用markdown语法容易迁移、备份
+<br/>
+缺点：官方文档不够详细，使用人数较少，很多问题无法快速找到答案
 
+## 🐞使用中发现的问题
+1. 热更新问题：如果涉及文章的增加删除，要重新执行`yarn dev`才能更新
+2. 文章置顶不成功：[官方文档中的相关部分](https://vuepress-theme-reco.recoluan.com/docs/theme/frontmatter-page.html#sticky)
+
+## 🤖待完善
+- [ ] 云服务上的构建尝试
+- [ ] webhook推送触发自动构建
+- [ ] 备案（进行中）
+- [ ] ssl证书配置
+
+## 应急方案
+本站部署暂未完成，应急方案如下：<br/>
+1. 在本地（windows）进行构建，推送到github仓库
+2. 云服务器（ubuntu20.04）上apache2+crontab定时执行git pull脚本
+
+### 本地（windows）
 本地的提交脚本如下，用`bash push.sh`执行：
 ```bash
 #!/bin/bash
@@ -32,3 +46,34 @@ git push
 ```
 这里不知道为什么用脚本执行`yarn build`的时候会报错"Yarn requires Node.js 4.0 or higher to be installed."，直接在终端执行可以成功。
 执行`yarn build`报错"Error: EBUSY: resource busy or locked, unlink 'C:\CodeSpace\vuepress-reco2\.vuepress\dist\assets\app-zpDucuRP.js'"，可以执行`yarn cache clean`解决。
+
+### 云服务器
+deploy.sh内容如下：
+```bash
+#!/bin/bash
+git pull
+cp -rf .vuepress/dist/ ~
+rm -r ~/html
+mv ~/dist ~/html
+cp -rf ~/html /var/www
+```
+编辑crontab要执行的命令:
+```bash
+vim /etc/crontab
+```
+添加以下字段：
+```
+0  0    * * *   root    /root/vuepress-reco2/deploy.sh
+0  12   * * *   root    /root/vuepress-reco2/deploy.sh
+```
+意思是每天的0点和12点都执行脚本deploy.sh，以下是官方样例：
+```
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name command to be executed
+```
