@@ -6,7 +6,6 @@ export default defineUserConfig({
   title: "Baiye959's Blog",
   description: "Just playing around",
   theme: recoTheme({
-    // 自动设置分类?
     autoSetSeries: true,
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",

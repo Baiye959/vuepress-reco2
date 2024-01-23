@@ -16,13 +16,17 @@ sticky: 1
 这里发现链接3的部署是在CentOS服务器上，而CentOS7不支持[vuepress-theme-reco2.x](https://vuepress-theme-reco.recoluan.com/)所需的node16，先使用下文的应急方案。
 
 ## 👾使用感受
-优点：美观简洁、容易上手，而且使用markdown语法容易迁移、备份
-<br/>
-缺点：官方文档不够详细，使用人数较少，很多问题无法快速找到答案
+优点：
+1. 美观简洁、容易上手
+2. 使用markdown语法，方便迁移、备份
 
+缺点：
+1. 官方文档不够详细，使用人数较少，很多问题无法快速找到答案
+2. 添加图片太麻烦
 ## 🐞使用中发现的问题
 1. 热更新问题：如果涉及文章的增加删除，要重新执行`yarn dev`才能更新
-2. 文章置顶不成功：[官方文档中的相关部分](https://vuepress-theme-reco.recoluan.com/docs/theme/frontmatter-page.html#sticky)
+2. 有时候文章目录不显示...当然这个问题在发布的静态中不会出现，只是本地`yarn dev`的时候不太舒服
+3. 标签页图表没说怎么设置
 
 ## 🤖待完善
 - [ ] 云服务上的构建尝试
@@ -30,7 +34,7 @@ sticky: 1
 - [ ] 备案（进行中）
 - [ ] ssl证书配置
 
-## 应急方案
+## 当前应急方案
 本站部署暂未完成，应急方案如下：<br/>
 1. 在本地（windows）进行构建，推送到github仓库
 2. 云服务器（ubuntu20.04）上apache2+crontab定时执行git pull脚本
