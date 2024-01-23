@@ -1,8 +1,8 @@
 ---
 title: Github仓库推荐系统（大数据）
 date: 2024/01/23
-categories:
- - 项目
+# categories:
+#  - 项目
 ---
 ## 一、项目简介
 
