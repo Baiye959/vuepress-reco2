@@ -82,8 +82,16 @@ vim /etc/crontab
 # *  *  *  *  * user-name command to be executed
 ```
 
+保存退出后重新载入cron配置：
+```
+service cron reload
+```
+
 开启crontab日记：
 ```
 sudo vim /etc/rsyslog.d/50-default.conf 
 ```
-将cron相关行的#删掉
+将cron相关行的注释取消，保存退出，重启rsyslog：
+```
+sudo service rsyslog restart
+```
