@@ -11,3 +11,12 @@ categories:
 4. [【啰里啰嗦】一步步搭建 VuePress 及优化](https://www.bilibili.com/video/BV1vb411m7NY)
 
 建议先看链接4的P1把本地环境搭建好，再跟着链接1和链接2搭建[vuepress-theme-reco2.x](https://vuepress-theme-reco.recoluan.com/)博客，最后跟着链接3把博客部署到云服务器上。
+
+本站部署暂未完成，先使用apache2+定时执行git pull脚本解决，deploy.sh内容如下：
+```bash
+#!/bin/bash
+git pull
+cp -rf .vuepress/dist/ ~
+mv -f ~/dist ~/html
+cp -rf ~/html /var/www
+```
