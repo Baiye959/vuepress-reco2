@@ -1,5 +1,5 @@
 #!/bin/bash
-yarn install
+yarn build
 git add .
 git commit -m "change"
 git push
