@@ -7,7 +7,7 @@ categories:
 
 ```bash
 # 关闭虚拟机
-exit 0
+init 0
 # 重启本地虚拟机或云服务器（两条命令都可以）
 init 6 
 reboot
