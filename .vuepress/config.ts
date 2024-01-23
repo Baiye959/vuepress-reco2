@@ -40,6 +40,7 @@ export default defineUserConfig({
         children: [
           { text: "vuepress-reco", link: "/docs/theme-reco/" },
           { text: "vuepress-theme-reco", link: "/blogs/projects/guide" },
+          { text: "路口违规识别", link: "/blogs/projects/electromobile" },
         ],
       },
     ],
