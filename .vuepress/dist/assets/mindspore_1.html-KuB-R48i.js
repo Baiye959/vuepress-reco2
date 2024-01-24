@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-16fac956","path":"/docs/xmuai/mindspore_1.html","title":"1. 环境配置","lang":"en-US","frontmatter":{"title":"1. 环境配置","date":"2024/01/24"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/xmuai/mindspore_1.md"}');export{e as data};

@@ -16,18 +16,18 @@ export default defineUserConfig({
     // docsDir: "docs",
     // lastUpdatedText: "Last Update",
     // series 为原 sidebar
-    // series: {
-    //   "/docs/theme-reco/": [
-    //     {
-    //       text: "module one",
-    //       children: ["home", "theme"],
-    //     },
-    //     {
-    //       text: "module two",
-    //       children: ["api", "plugin"],
-    //     },
-    //   ],
-    // },
+    series: {
+      "/docs/xmuai/": [
+        {
+          text: "Python基础",
+          children: ["python_1", "python_2"],
+        },
+        {
+          text: "Mindspore入门",
+          children: ["mindspore_1", "mindspore_2"],
+        },
+      ],
+    },
     navbar: [
       { icon: 'Home', text: "首页", link: "/" },
       { icon: 'Categories', text: "分类", link: "/categories/other/1/" },
@@ -38,7 +38,7 @@ export default defineUserConfig({
         text: "文档",
         children: [
           { text: "Linux基础使用方法", link: "/docs/linux/1" },
-          { text: "人工智能基础", link: "/docs/xmuai/Python基础/1.html" },
+          { text: "人工智能基础", link: "/docs/xmuai/python_1" },
         ],
       },
     ],

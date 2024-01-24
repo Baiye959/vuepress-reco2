@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-25aec020","path":"/docs/xmuai/Pythonjichu/2.html","title":"语言元素","lang":"en-US","frontmatter":{"title":"语言元素","date":"2024/01/24"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/xmuai/Python基础/2.md"}');export{t as data};

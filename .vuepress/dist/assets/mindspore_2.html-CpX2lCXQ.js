@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-18afa1f5","path":"/docs/xmuai/mindspore_2.html","title":"2. 第二篇","lang":"en-US","frontmatter":{"title":"2. 第二篇","date":"2024/01/24"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/xmuai/mindspore_2.md"}');export{e as data};
