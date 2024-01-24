@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-2ea99610","path":"/blogs/linux/3.html","title":"几个简单的命令","lang":"en-US","frontmatter":{"title":"几个简单的命令","date":"2024/01/24","categories":["Linux基础使用方法"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/linux/3.md"}');export{e as data};

@@ -34,21 +34,11 @@ export default defineUserConfig({
       // { text: "Tags", link: "/tags/tag1/1/" },
       { icon: 'Time', text: "时间轴", link: "/timeline" },
       {
-        icon: 'Code',
-        text: "项目",
-        children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/" },
-          { text: "vuepress-theme-reco", link: "/blogs/projects/guide" },
-          { text: "路口违规识别", link: "/blogs/projects/electromobile" },
-          { text: "Github仓库推荐系统", link: "/blogs/projects/recommend" },
-        ],
-      },
-      {
         icon: 'Document',
         text: "文档",
         children: [
           { text: "vuepress-reco", link: "/docs/theme-reco/" },
-          { text: "Linux基础使用方法", link: "/docs/linux/1.html" },
+          { text: "Linux基础使用方法", link: "/docs/linux/1" },
         ],
       },
     ],

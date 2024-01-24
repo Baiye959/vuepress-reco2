@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-331c7084","path":"/docs/python/env.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1706082016000,"updatedTime":1706082016000,"contributors":[{"name":"Baiye959","email":"3383522774@qq.com","commits":1}]},"filePathRelative":"docs/python/env.md"}');export{e as data};

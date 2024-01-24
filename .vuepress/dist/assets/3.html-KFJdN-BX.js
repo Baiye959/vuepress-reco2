@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-8ff27908","path":"/docs/linux/3.html","title":"3. 几个简单的命令","lang":"en-US","frontmatter":{"title":"3. 几个简单的命令","date":"2024/01/24"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/linux/3.md"}');export{t as data};

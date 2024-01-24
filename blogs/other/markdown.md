@@ -5,10 +5,13 @@ categories:
  - other
 sticky: 2
 ---
-### 标题
-文内标题只能从##开始！#被文章标题占用
+## 本主题Markdown扩展
 
-### 待办
+### 自定义容器&代码相关
+[官网文档 - 自定义容器&代码相关](https://vuepress-theme-reco.recoluan.com/docs/theme/custom-container.html)
+
+### 任务列表
+[官网文档 - 任务列表](https://vuepress-theme-reco.recoluan.com/docs/theme/markdown-task.html)
 - [ ] 未完成任务
 - [x] 已完成任务
 ```
@@ -16,12 +19,24 @@ sticky: 2
 - [x] 已完成任务
  * * *注意这些空格必须要有
 ```
+
+### Vue组件预览
+[官网文档 - Vue组件预览](https://vuepress-theme-reco.recoluan.com/docs/theme/custom-container.html)
+
+### 解析文件代码组
+[官网文档 - 解析文件代码组](https://vuepress-theme-reco.recoluan.com/docs/theme/markdown-file-parse.html)<br/>
+
+## 常用Markdown语法
+### 标题
+文内标题只能从##开始！#被文章标题占用
+
+
 ### 换行
 ![](/image/1706019725841.jpg)
 
-### 插入图片
-![](/image/1706019725841.jpg)
-该图片路径为.vuepress/public/image/1706019725841.jpg
+### 插入图片（包括svg图标）
+![](/image/dog.jpg)
+该图片路径为.vuepress/public/image/dog.jpg
 ```
 ![](/image/1706019725841.jpg)
 ```
