@@ -3,11 +3,12 @@ title: Java求职路线规划
 date: 2024/01/22
 categories:
  - 求职记录
+password: 0e0d738a29f36c6ad4b53a10ec010489
 ---
-## Java基础（2024.1.23~2024.2.5）
+## Java基础（2024.1.24~2024.2.6）
 [二哥的Java进阶之路](https://javabetter.cn/overview/what-is-java.html)
 
-- [x] Day1  环境配置
+- [ ] Dayx  环境配置
 - [ ] Dayx  Java语法基础
 - [ ] Dayx  数组&字符串
 - [ ] Dayx  面向对象编程
