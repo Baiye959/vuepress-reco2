@@ -19,14 +19,15 @@ sticky: 1
 优点：
 1. 美观简洁、容易上手
 2. 使用markdown语法，方便迁移、备份
-
+3. 在本地用vscode写markdown很舒适
+4. 稳定、小巧（不像wordpress那样在网站上编写，需要的服务器资源较少）
 缺点：
 1. 官方文档不够详细，使用人数较少，很多问题无法快速找到答案
 2. 添加图片太麻烦
 ## 🐞使用中发现的问题
 1. 热更新问题：如果涉及文章的增加删除，要重新执行`yarn dev`才能更新
 2. 有时候文章目录不显示...当然这个问题在发布的静态中不会出现，只是本地`yarn dev`的时候不太舒服
-3. 标签页图表没说怎么设置
+3. 标签页图标没说怎么设置
 
 ## 🤖待完善
 - [ ] 云服务上的构建尝试
@@ -48,7 +49,7 @@ git add .
 git commit -m "change"
 git push
 ```
-这里不知道为什么用脚本执行`yarn build`的时候会报错"Yarn requires Node.js 4.0 or higher to be installed."，直接在终端执行可以成功。
+这里不知道为什么用脚本执行`yarn build`的时候会报错"Yarn requires Node.js 4.0 or higher to be installed."，直接在终端执行可以成功。<br/>
 执行`yarn build`报错"Error: EBUSY: resource busy or locked, unlink 'C:\CodeSpace\vuepress-reco2\.vuepress\dist\assets\app-zpDucuRP.js'"，可以执行`yarn cache clean`解决。
 
 ### 云服务器

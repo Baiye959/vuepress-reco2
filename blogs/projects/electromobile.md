@@ -1,8 +1,8 @@
 ---
 title: 路口违规识别（华为云服务器 + IoTDA）
 date: 2024/01/23
-# categories:
-#  - 项目
+categories:
+ - 项目
 ---
 
 ## 项目描述
