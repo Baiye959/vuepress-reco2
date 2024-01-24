@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as _,a as c}from"./app-GPhfM90N.js";const o={},s=c("p",null,"第一篇",-1),n=[s];function a(r,l){return t(),_("div",null,n)}const f=e(o,[["render",a],["__file","1.html.vue"]]);export{f as default};

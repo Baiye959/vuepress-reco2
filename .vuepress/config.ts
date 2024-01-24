@@ -37,8 +37,8 @@ export default defineUserConfig({
         icon: 'Document',
         text: "文档",
         children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/" },
           { text: "Linux基础使用方法", link: "/docs/linux/1" },
+          { text: "人工智能基础", link: "/docs/xmuai/Python基础/1.html" },
         ],
       },
     ],

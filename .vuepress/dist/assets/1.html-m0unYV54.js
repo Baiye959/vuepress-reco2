@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-23f9e781","path":"/docs/xmuai/Pythonjichu/1.html","title":"环境配置","lang":"en-US","frontmatter":{"title":"环境配置","date":"2024/01/24"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/xmuai/Python基础/1.md"}');export{t as data};
