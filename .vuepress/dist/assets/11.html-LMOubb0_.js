@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3e25dafa","path":"/docs/linux/11.html","title":"11. 管道","lang":"en-US","frontmatter":{"title":"11. 管道","date":"2024/01/24"},"headers":[],"git":{"createdTime":1706095832000,"updatedTime":1706095832000,"contributors":[{"name":"Baiye959","email":"3383522774@qq.com","commits":1}]},"filePathRelative":"docs/linux/11.md"}');export{e as data};

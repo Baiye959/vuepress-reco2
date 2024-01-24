@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-3e25dafa","path":"/docs/linux/11.html","title":"11. 管道","lang":"en-US","frontmatter":{"title":"11. 管道","date":"2024/01/24"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/linux/11.md"}');export{t as data};

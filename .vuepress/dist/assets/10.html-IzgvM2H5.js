@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-418f8c38","path":"/docs/linux/10.html","title":"10. 文件内容操作","lang":"en-US","frontmatter":{"title":"10. 文件内容操作","date":"2024/01/24"},"headers":[],"git":{"createdTime":1706095832000,"updatedTime":1706095832000,"contributors":[{"name":"Baiye959","email":"3383522774@qq.com","commits":1}]},"filePathRelative":"docs/linux/10.md"}');export{e as data};

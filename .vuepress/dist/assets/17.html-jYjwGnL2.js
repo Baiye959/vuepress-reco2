@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-29abb386","path":"/docs/linux/17.html","title":"17. 性能分析top","lang":"en-US","frontmatter":{"title":"17. 性能分析top","date":"2024/01/24"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/linux/17.md"}');export{t as data};

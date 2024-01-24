@@ -5,7 +5,8 @@ categories:
  - 求职记录
 password: 0e0d738a29f36c6ad4b53a10ec010489
 ---
-## Java基础（2024.1.24~2024.2.6）
+## Java基础
+2024.1.24~2024.2.6
 [二哥的Java进阶之路](https://javabetter.cn/overview/what-is-java.html)
 
 - [ ] Dayx  环境配置

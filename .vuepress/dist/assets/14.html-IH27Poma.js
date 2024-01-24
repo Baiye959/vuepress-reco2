@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-33e8c740","path":"/docs/linux/14.html","title":"14. 软件包的安装和卸载","lang":"en-US","frontmatter":{"title":"14. 软件包的安装和卸载","date":"2024/01/24"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/linux/14.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-26420248","path":"/docs/linux/18.html","title":"18. 其他Linux命令","lang":"en-US","frontmatter":{"title":"18. 其他Linux命令","date":"2024/01/24"},"headers":[],"git":{"createdTime":1706095832000,"updatedTime":1706095832000,"contributors":[{"name":"Baiye959","email":"3383522774@qq.com","commits":1}]},"filePathRelative":"docs/linux/18.md"}');export{e as data};

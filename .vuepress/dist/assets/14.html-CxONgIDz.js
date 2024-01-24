@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-33e8c740","path":"/docs/linux/14.html","title":"14. 软件包的安装和卸载","lang":"en-US","frontmatter":{"title":"14. 软件包的安装和卸载","date":"2024/01/24"},"headers":[],"git":{"createdTime":1706095832000,"updatedTime":1706095832000,"contributors":[{"name":"Baiye959","email":"3383522774@qq.com","commits":1}]},"filePathRelative":"docs/linux/14.md"}');export{e as data};

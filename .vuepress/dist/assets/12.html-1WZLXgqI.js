@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3abc29bc","path":"/docs/linux/12.html","title":"12. 链接","lang":"en-US","frontmatter":{"title":"12. 链接","date":"2024/01/24"},"headers":[],"git":{"createdTime":1706095832000,"updatedTime":1706095832000,"contributors":[{"name":"Baiye959","email":"3383522774@qq.com","commits":1}]},"filePathRelative":"docs/linux/12.md"}');export{e as data};
