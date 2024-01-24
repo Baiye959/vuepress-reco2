@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7ee202d2","path":"/docs/linux/8.html","title":"8. 命令历史、补全和正则表达式","lang":"en-US","frontmatter":{"title":"8. 命令历史、补全和正则表达式","date":"2024/01/24"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/linux/8.md"}');export{e as data};

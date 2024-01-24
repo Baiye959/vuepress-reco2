@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-824bb410","path":"/docs/linux/7.html","title":"7. 目录和文件操作","lang":"en-US","frontmatter":{"title":"7. 目录和文件操作","date":"2024/01/24"},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/linux/7.md"}');export{t as data};
