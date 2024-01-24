@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1c7dfc3c","path":"/docs/linux/dir.html","title":"Linux的目录和文件","lang":"en-US","frontmatter":{"title":"Linux的目录和文件","date":"2024/01/24"},"headers":[{"level":2,"title":"目录概要","slug":"目录概要","link":"#目录概要","children":[]}],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/linux/dir.md"}');export{e as data};

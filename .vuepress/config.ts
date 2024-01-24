@@ -43,6 +43,14 @@ export default defineUserConfig({
           { text: "Github仓库推荐系统", link: "/blogs/projects/recommend" },
         ],
       },
+      {
+        icon: 'Document',
+        text: "文档",
+        children: [
+          { text: "vuepress-reco", link: "/docs/theme-reco/" },
+          { text: "Linux基础使用方法", link: "/docs/linux/1.html" },
+        ],
+      },
     ],
     // bulletin: {
     //   body: [
