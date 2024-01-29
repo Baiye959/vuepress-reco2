@@ -1,6 +1,6 @@
 ---
 title: Java求职路线规划
-date: 2024/01/22
+date: 2024/01/29
 categories:
  - 求职记录
 # password: 0e0d738a29f36c6ad4b53a10ec010489
@@ -12,7 +12,7 @@ categories:
 在之前的项目里熟悉了git、vim和一些基础的linux命令，会在云服务器上部署上线项目
 
 ### 简历
-先写[简历](/file/resume1.pdf)，定个目标：在秋招前找个实习
+先写[简历](/file/resume1.pdf)定个目标
 
 ## 学习规划
 寒假先学Java语言，把[面渣逆袭](https://javabetter.cn/sidebar/sanfene/nixi.html)里已经学的部分看一下。<br/>
@@ -35,7 +35,7 @@ categories:
 [技术派教程](https://www.yuque.com/itwanger/az7yww)
 
 ### 五、八股文、算法等（三月~找到工作）
-[八股文总结pdf](https://wx.zsxq.com/dweb2/index/topic_detail/812844225242142)
-[操作系统](https://www.bilibili.com/video/BV1Cm4y1d7Ur)
-[leetcode刷题笔记](https://leetcode.wang/)
+[八股文总结pdf](https://wx.zsxq.com/dweb2/index/topic_detail/812844225242142)<br/>
+[操作系统](https://www.bilibili.com/video/BV1Cm4y1d7Ur)<br/>
+[leetcode刷题笔记](https://leetcode.wang/)<br/>
 [二哥的LeetCode刷题笔记](https://www.yuque.com/itwanger/czfoq9)
