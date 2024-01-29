@@ -49,3 +49,15 @@ sticky: 2
 ```
 [ratings.csv](/file/ratings_wfpL8zQ8L4.csv)
 ```
+
+### 表格
+
+| 左对齐 | 居中对齐 | 右对齐 |
+|:-|:-:|-:|
+| Chocolatey | Windows 命令行软件管理器 | [使用教程](https://javabetter.cn/gongju/choco.html) |
+
+```
+| 左对齐 | 居中对齐 | 右对齐 |
+|:-|:-:|-:|
+| Chocolatey | Windows 命令行软件管理器 | [使用教程](https://javabetter.cn/gongju/choco.html) |
+```

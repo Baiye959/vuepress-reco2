@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-7b785194","path":"/docs/linux/9.html","title":"9. 目录和文件的权限","lang":"en-US","frontmatter":{"title":"9. 目录和文件的权限","date":"2024/01/24"},"headers":[],"git":{"createdTime":1706095832000,"updatedTime":1706095832000,"contributors":[{"name":"Baiye959","email":"3383522774@qq.com","commits":1}]},"filePathRelative":"docs/linux/9.md"}');export{e as data};
