@@ -34,7 +34,7 @@ categories:
 ### 五、项目（五月）
 [技术派教程](https://www.yuque.com/itwanger/az7yww)
 
-### 五、八股文、算法等（三月~找到工作）
+### 六、八股文、算法等（三月~找到工作）
 [八股文总结pdf](https://wx.zsxq.com/dweb2/index/topic_detail/812844225242142)<br/>
 [操作系统](https://www.bilibili.com/video/BV1Cm4y1d7Ur)<br/>
 [leetcode刷题笔记](https://leetcode.wang/)<br/>
