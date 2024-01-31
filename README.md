@@ -20,6 +20,11 @@ blog:
     - { icon: 'LetterCc', link: 'https://blog.csdn.net/Baiye959' }
     - { icon: 'LogoWechat', link: 'https://img2.imgtp.com/2024/01/22/DSIbWNaR.jpg' }
     
+footer: # 底部模块的配置
+  record: 闽ICP备2023017022号-2
+  recordLink: https://beian.miit.gov.cn/
+  startYear: 2024
+
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
