@@ -39,3 +39,22 @@ categories:
 进阶：你可以想出一个时间复杂度小于 O(n2) 的算法吗？
 
 ## 解题思路
+### 解法一
+暴力遍历，两重循环，如果两元素相加等于目标和直接返回
+```java
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int []ans=new int[2];
+        for(int i=0;i<nums.length;i++){
+            for(int j=(i+1);j<nums.length;j++){
+                if(nums[i]+nums[j]==target){
+                    ans[0]=i;
+                    ans[1]=j;
+                    return ans;
+                }
+            }
+        }
+        return ans;
+    }
+}
+```
