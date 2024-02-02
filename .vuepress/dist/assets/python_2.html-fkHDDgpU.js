@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,b as _}from"./app-6gN4mH31.js";const c={},n=_("p",null,"第二篇",-1),s=[n];function r(a,l){return t(),o("div",null,s)}const f=e(c,[["render",r],["__file","python_2.html.vue"]]);export{f as default};
