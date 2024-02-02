@@ -9,3 +9,4 @@ categories:
 |:-:|:-:|:-:|
 | Chocolatey | Windows 命令行软件管理器 | [官方地址](https://chocolatey.org/) [安装文档](https://chocolatey.org/install#individual) [使用教程](https://javabetter.cn/gongju/choco.html) |
 | uTools | 快捷键「Alt + 空格」，呼出 uTools 搜索框 | [官方地址](https://u.tools/) |
+| 有道翻译 | 划词翻译、截图翻译 | [官网地址](https://fanyi.youdao.com/download-Windows/) |
