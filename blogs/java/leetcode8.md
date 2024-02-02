@@ -72,3 +72,48 @@ s 由英文字母（大写和小写）、数字（0-9）、' '、'+'、'-' 和 '
 ```
 
 ## 解题思路
+
+跟着题目描述的算法来就行，主要是练习语法。注意合法输入为三个示例
+
+```java
+class Solution {
+    public int myAtoi(String s) {
+        int sign = 1;
+        int ans = 0, pop = 0;
+        boolean hasSign = false; // true就开始转换数字
+        for(int i=0;i<s.length();i++){
+            if(s.charAt(i) == ' ' && !hasSign) {
+                continue;
+            }
+            if(s.charAt(i) == '-' && !hasSign) {
+                sign = -1;
+                hasSign = true;
+                continue;
+            }
+            if(s.charAt(i) == '+' && !hasSign) {
+                hasSign = true;
+                continue;
+            }
+
+            if(s.charAt(i) >= '0' && s.charAt(i) <= '9') {
+                hasSign = true;
+                pop = s.charAt(i) - '0';
+                
+                // 判断出界
+                if(ans*sign > Integer.MAX_VALUE/10 || (ans*sign == Integer.MAX_VALUE/10 && pop*sign>Integer.MAX_VALUE%10)) {
+                    return Integer.MAX_VALUE;
+                }
+                if(ans*sign < Integer.MIN_VALUE/10 || (ans*sign == Integer.MIN_VALUE/10 && pop*sign<Integer.MIN_VALUE%10)) {
+                    return Integer.MIN_VALUE;
+                }
+
+                ans = ans * 10 + pop;
+            } else {
+                return ans*sign;
+            }
+        }
+
+        return ans*sign;
+    }
+}
+```
