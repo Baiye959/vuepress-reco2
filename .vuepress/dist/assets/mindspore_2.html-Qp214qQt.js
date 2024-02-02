@@ -1,1 +1,0 @@
-import{_ as e,o,c as t,b as _}from"./app-vHt2W3p7.js";const s={},c=_("p",null,"第二篇",-1),n=[c];function r(a,l){return o(),t("div",null,n)}const i=e(s,[["render",r],["__file","mindspore_2.html.vue"]]);export{i as default};
