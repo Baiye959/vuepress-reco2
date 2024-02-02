@@ -1,4 +1,4 @@
-import{_ as n,o as s,c as a,a as e}from"./app-MvyXYUYw.js";const i={},l=e(`<div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 关闭虚拟机</span>
+import{_ as n,o as s,c as a,a as e}from"./app-18FCoBrG.js";const i={},l=e(`<div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 关闭虚拟机</span>
 init <span class="token number">0</span>
 <span class="token comment"># 重启本地虚拟机或云服务器（两条命令都可以）</span>
 init <span class="token number">6</span> 
