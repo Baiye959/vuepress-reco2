@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,b as _}from"./app-5mSmSuE5.js";const c={},n=_("p",null,"测试文档的自动分类",-1),s=[n];function r(a,l){return t(),o("div",null,s)}const f=e(c,[["render",r],["__file","python_1.html.vue"]]);export{f as default};

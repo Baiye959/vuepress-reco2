@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,b as e,d as o}from"./app-6gN4mH31.js";const r={},s=e("h2",{id:"目录概要",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#目录概要","aria-hidden":"true"},"#"),o(" 目录概要")],-1),_=[s];function n(d,i){return a(),c("div",null,_)}const l=t(r,[["render",n],["__file","4.html.vue"]]);export{l as default};
