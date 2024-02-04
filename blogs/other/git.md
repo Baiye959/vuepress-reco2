@@ -94,3 +94,22 @@ git remote set-url origin https://<your_token>@github.com/<USERNAME>/<REPO>.git
 # 克隆远程仓库到本地时
 git clone https://<your_token>@github.com/<USERNAME>/<REPO>.git
 ```
+
+## 双重身份验证问题
+
+请看参考链接，以下内容仅防链接失效[GitHub 2FA认证（双重身份验证）](https://zhuanlan.zhihu.com/p/665527864)
+
+
+>**注意：**从 2023 年 3 月开始到 2023 年底，GitHub 将逐渐开始要求在 GitHub.com 上贡献代码的所有用户启用一种或多种形式的双因素身份验证 (2FA)。 如果你在符合条件的组中，当选择该组进行注册时，将收到一封通知电子邮件，该电子邮件标志着 45 天的 2FA 注册期的开始，并且你会看到要求你在 GitHub.com 上注册 2FA 的横幅。 如果未收到通知，则表示你不是需要启用 2FA 的组的成员，但我们强烈建议启用 2FA。
+
+访问Github官网受阻/收到邮箱通知，需要进行双重身份验证（[官网文档](https://docs.github.com/zh/enterprise-cloud@latest/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication)）
+
+
+开源免费的Authenticator: 2FA Client，支持多种浏览器。
+
+切到github的设置- 安全页面，展示一个二维码，然后点击扩展上的扫描按钮，用鼠标选中github的二维码，即可添加github帐号。
+
+- 参考教程：[GitHub 2FA认证（双重身份验证）](https://zhuanlan.zhihu.com/p/665527864)
+- 开源地址：[Authenticator-Extension/Authenticator: Authenticator generates 2-Step Verification codes in your browser. (github.com)](https://link.zhihu.com/?target=https%3A//github.com/Authenticator-Extension/Authenticator)
+- Edge扩展：[Authenticator: 2FA Client - Microsoft Edge Addons](https://link.zhihu.com/?target=https%3A//microsoftedge.microsoft.com/addons/detail/authenticator-2fa-client/ocglkepbibnalbgmbachknglpdipeoio)
+- Chrome扩展：[身份验证器 - Chrome 应用商店 (google.com)](https://link.zhihu.com/?target=https%3A//chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai)
