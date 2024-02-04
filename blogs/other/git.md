@@ -6,7 +6,6 @@ categories:
 ---
 
 ## 推荐学习链接
-
 [廖雪峰的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
 ## 项目创建人使用Git
@@ -72,10 +71,22 @@ categories:
 - "Expiration"设为"No expiration"（无到期时间，即永久有效）
 - "Select scopes"勾上"repo"（对仓库的操作权限）
 
+点击"Generate token"（生成令牌）后一定要保存令牌！！！！！一旦关闭页面就没有办法在Github官网再看到令牌了
+
 ### 3. 使用令牌方法
 
-一种是直接把令牌当作原来的密码使用（在新设备加入仓库时）；一种则是直接在远程仓库链接中加入令牌，这样就不需要每次操作输入令牌了，命令如下
+#### 使用方法一
 
+把令牌当作原来的密码使用
+```bash
+$ git clone https://github.com/username/repo.git
+Username: your_username
+Password: your_token
+```
+
+#### 使用方法二
+
+直接在远程仓库链接中加入令牌，这样就不需要每次操作输入令牌了，命令如下
 ```bash
 # 本地仓库与远程仓库建立联系时
 git remote set-url origin https://<your_token>@github.com/<USERNAME>/<REPO>.git
