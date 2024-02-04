@@ -69,9 +69,9 @@ vim /etc/crontab
 ```
 添加以下字段：
 ```
-0  *   * * *   root   bash /root/vuepress-reco2/deploy.sh
+*/10  *   * * *   root   bash /root/vuepress-reco2/deploy.sh
 ```
-意思是每小时的0分都执行脚本deploy.sh，以下是官方样例：
+意思是每十分钟执行一次脚本deploy.sh，以下是官方样例：
 ```
 # Example of job definition:
 # .---------------- minute (0 - 59)
