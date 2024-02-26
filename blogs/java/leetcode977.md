@@ -31,3 +31,34 @@ nums 已按 非递减顺序 排序
 进阶：
 
 请你设计时间复杂度为 O(n) 的算法解决本问题
+
+## 解题思路
+
+一种思路是先遍历平方，再排序，那么时间复杂度是0(nlogn)。
+
+另一种思路则是根据本题特征使用双指针。<br/>
+按题目描述，平方后的大小关系应该如下图（先变小后变大）
+![](/image/2024022601.png)
+
+从左到中为一个递减数组、从右到中为一个递减数组，那么实际上题目就变成了合并两个递减数组（注意最终目标是递增数组）。<br/>
+可以使用双指针，左指针从左向右、右指针从右向左，比较两个元素、较大的倒序放入数组。<br/>
+这里不用特殊考虑两个递减数组的长度是否相等，即使只有一个递减数组，按这种操作也不会出错，那么结束循环只需左右指针错开即可（换句话说循环条件为left<=right，如果不等于、最中间那个元素可能会遗漏）
+
+双指针代码：
+```java
+class Solution {
+    public int[] sortedSquares(int[] nums) {
+        int[] ret = new int[nums.length];
+        for (int i = 0, j = nums.length - 1, k = nums.length - 1;i <= j; ) {
+            if (Math.pow(nums[i], 2) >= Math.pow(nums[j], 2)) {
+                ret[k--] = (int)Math.pow(nums[i], 2);
+                i ++;
+            } else {
+                ret[k--] = (int)Math.pow(nums[j], 2);
+                j --;
+            }
+        }
+        return ret;
+    }
+}
+```
