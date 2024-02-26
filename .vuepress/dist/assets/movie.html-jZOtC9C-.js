@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-3b7f7cd6","path":"/blogs/daily/movie.html","title":"影视分享","lang":"en-US","frontmatter":{"title":"影视分享","date":"2024/02/04","categories":["日常"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/daily/movie.md"}');export{e as data};
