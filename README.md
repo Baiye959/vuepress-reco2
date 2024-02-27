@@ -8,7 +8,7 @@ bannerBrand:
   bgImage: '/bg.svg'
   title: Hello, world!
   # description: 且视他人之疑目如盏盏鬼火，大胆地去走你的夜路
-  tagline: 且视他人之疑目如盏盏鬼火，大胆地去走你的夜路
+  tagline: “万丈高楼平地起，勿在浮沙筑高台”
   # buttons:
     # - { text: Guide, link: '/docs/guide/introduce' }
     # - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
