@@ -21,6 +21,7 @@ password: 0e0d738a29f36c6ad4b53a10ec010489
 
 ### 一、Java语言（二月）
 [二哥的Java进阶之路](https://javabetter.cn/overview/what-is-java.html)
+Java语言可以看翁恺老师的课
 
 ### 二、Spring全家桶（三月）
 [JavaWeb/SSM/Spring Boot/微服务](https://articles.zsxq.com/id_5gbcp0zd0egg.html)
@@ -35,6 +36,7 @@ password: 0e0d738a29f36c6ad4b53a10ec010489
 [技术派教程](https://www.yuque.com/itwanger/az7yww)
 
 ### 六、八股文、算法等（三月~找到工作）
+八股文可以看看[小林coding](xiaolincoding.com)！
 [八股文总结pdf](https://wx.zsxq.com/dweb2/index/topic_detail/812844225242142)<br/>
 [操作系统](https://www.bilibili.com/video/BV1Cm4y1d7Ur)<br/>
 [leetcode刷题笔记](https://leetcode.wang/)<br/>
