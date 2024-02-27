@@ -39,3 +39,32 @@ categories:
 进阶：
 
 如果你已经实现 `O(n)` 时间复杂度的解法, 请尝试设计一个 `O(n log(n))` 时间复杂度的解法。
+
+## 解题思路
+
+一种暴力解题思路为双层循环遍历，计算所有n*n种子数组之和，记录当前符合条件的最小长度。
+
+另一种思路则是滑动窗口，其本质其实也是双指针，但因为是判断所夹窗口的特征，称为滑动窗口。<br/>
+两个指针均从左向右滑动，根据在窗口的左右称为左端点和右端点（选择区间类型为左闭右闭），窗口总和未达到`target`时右端点移动、窗口总和去掉左端点仍然大于等于`target`时左端点移动，这样就可以找到符合条件的最小子数组。<br/>
+需要注意的是本题使用双指针的移动方向，如果右端点不是始终向一个方向移动、而是双向来回移动，那么与双层循环无异，时间复杂度仍是`O(n^2)`
+
+```java
+class Solution {
+    public int minSubArrayLen(int target, int[] nums) {
+        int sum = 0, ret = nums.length+1;
+        for ( int l=0, r=0; r<nums.length; r++) {
+            sum += nums[r];
+
+            while (sum-nums[l] >= target) {
+                sum -= nums[l];
+                l ++;
+            }
+            if (sum >= target)
+                ret = Math.min(ret, r-l+1);
+        }
+
+        if (ret > nums.length) return 0;
+        return ret;
+    }
+}
+```
