@@ -4,11 +4,16 @@ import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
   title: "Baiye959's Blog",
-  description: "Just playing around",
+  description: "Baiye959's Blog",
+  head: [
+    ['link', { rel: 'icon', href: '/glass.ico' }],
+    ['meta', { rel: 'author', content: 'Baiye959' }],
+    ['meta', { rel: 'keywords', content: 'Baiye959, Blog, Java' }]
+  ],
   theme: recoTheme({
     autoSetSeries: true,
     style: "@vuepress-reco/style-default",
-    logo: "/logo.png",
+    logo: "/glass.ico",
     author: "Baiye959",
     authorAvatar: "/cat.jpg",
     // docsRepo: "https://github.com/Baiye959/vuepress-reco2",
