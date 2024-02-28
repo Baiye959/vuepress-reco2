@@ -18,7 +18,8 @@ blog:
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/Baiye959' }
     - { icon: 'LetterCc', link: 'https://blog.csdn.net/Baiye959' }
-    - { icon: 'LogoWechat', link: 'https://img2.imgtp.com/2024/01/22/DSIbWNaR.jpg' }
+    # - { icon: 'LogoWechat', link: 'https://img2.imgtp.com/2024/01/22/DSIbWNaR.jpg' }
+    - { icon: 'LogoWechat', link: 'https://baiye959.cn/wechat.jpg' }
     
 footer: # 底部模块的配置
   record: 闽ICP备2023017022号-2
