@@ -32,21 +32,43 @@ categories:
 0 <= val <= 50
 ```
 
+## java基础补充
+
+首先了解一下java中的链表实现，本题是下面这样（注意Java中没有指针，访问节点内容得用'.'）：
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+```
+
 ## 解题思路
 
-首先了解一下java中的链表实现，猜测是下面这样（注意Java中没有指针，访问结点内容得用'.'）：
+一种思路是直接对原链表进行操作，则要分为头节点和非头节点进行删除操作。注意删除头节点会产生新的头节点，因此对头节点的判断删除操作要用while循环。
+
+另一种思路则是添加虚拟头节点，这种做法在链表相关题中很常见，是为了能不特殊处理头节点（添加虚拟头节点后，头节点之前也有节点指向它了，可以跟非头节点一样处理）。<br/>
+注意检查节点的值时，当前节点应该是检查节点的上一个节点，不然删除时无法找到上一个节点。
+
 ```java
-class ListNode<E>{                //类名 ：Java类就是一种自定义的数据结构
-    E val;                        //数据 ：节点数据 
-    ListNode<E> next;             //对象 ：引用下一个节点对象。在Java中没有指针的概念，Java中的引用和C语言的指针类似
-    
-    ListNode(E val){              //构造方法 ：构造方法和类名相同   
-        this.val=val;             //把接收的参数赋值给当前类的val变量
-    }
-    ListNode(E val, ListNode<E> next){
-        this.val=val;
-        this.next=next;
+class Solution {
+    public ListNode removeElements(ListNode head, int val) {
+        // if (head == null) return head;
+        ListNode dummyhead = new ListNode(-1, head);
+        ListNode cur = dummyhead;
+        while (cur.next != null) {
+            if (cur.next.val == val) {
+                cur.next = cur.next.next;
+            } else {
+                cur = cur.next;
+            }
+        }
+        return dummyhead.next;
     }
 }
 ```
-
