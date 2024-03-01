@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-62d4bc8b","path":"/categories/caozuoxitong/1/","title":"","lang":"en-US","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{t as data};
