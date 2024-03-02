@@ -4,8 +4,7 @@ date: 2024/03/01
 categories:
  - 日常
 ---
-## java内推
-::: details 美团（含java开发实习生）
+::: details 美团
 ⏰【美团】24届春招+25届暑期实习生招聘正式启动！<br/>
 【招聘岗位】技术类、产品类、运营类、职能类、金融类、设计类、零售类等<br/>
 【工作城市】北京、上海、深圳、广州等诸多可选城市<br/>
@@ -23,4 +22,14 @@ categories:
 【岗位城市】北京市及其他<br/>
 【内推链接】[https://app.mokahr.com/m/campus_apply/cyou-inc/42233?recommendCode=DSTzWvwQ#/jobs](https://app.mokahr.com/m/campus_apply/cyou-inc/42233?recommendCode=DSTzWvwQ#/jobs)<br/>
 【内推码】DSTzWvwQ（简历优先被筛选，加速流程推进）
+:::
+
+::: details 米哈游
+🔥米哈游24春季（24届应届+25届暑期实习+25届及以后日常实习）校招启动
+【招聘对象】24&25届毕业生
+【岗位类别】程序&技术类、美术&表现类、国际化类、运营类 市场&商务类、产品策划类、质量管理类、综合类
+【网申截止时间】5月10日
+【内推链接】
+[miHoYo招聘官网](https://jobs.mihoyo.com/?recommendationCode=VDS2&isRecommendation=true#/campus/position)
+内推码 VDS2
 :::
