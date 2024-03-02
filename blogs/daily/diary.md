@@ -15,5 +15,9 @@ categories:
 :::
 
 ::: details ✍🏻2024.03.02
-原来这个接口跟我想的不一样...API是Application Programming Interface，学的接口是interface。累了TT，去写算法题
+原来这个接口跟我想的不一样...API是Application Programming Interface，学的接口是interface。<br/>
+累了TT，去写算法题
+
+对能力不足的人来说，期待是一种负担。<br/>
+有点像钱钟书那句话：“对于丑人，细看是一种残忍——除非他是坏人，你要惩罚他”
 :::
