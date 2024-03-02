@@ -9,7 +9,27 @@ sticky: 2
 
 ### 自定义容器&代码相关
 [官网文档 - 自定义容器&代码相关](https://vuepress-theme-reco.recoluan.com/docs/theme/custom-container.html)
+```
+::: tip
+这是一个提示
+:::
 
+::: info
+这是一个提示
+:::
+
+::: warning
+这是一个警告
+:::
+
+::: danger
+这是一个危险警告
+:::
+
+::: details
+这是一个 details 标签
+:::
+```
 ### 任务列表
 [官网文档 - 任务列表](https://vuepress-theme-reco.recoluan.com/docs/theme/markdown-task.html)
 - [ ] 未完成任务

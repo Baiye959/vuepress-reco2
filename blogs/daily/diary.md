@@ -15,5 +15,5 @@ categories:
 :::
 
 ::: details ✍🏻2024.03.02
-原来这个接口跟我想的不一样...API和interface
+原来这个接口跟我想的不一样...API是Application Programming Interface，学的接口是interface。累了TT，去写算法题
 :::
