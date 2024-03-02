@@ -41,7 +41,7 @@ import java.lang.*;
 import java.util.*;
 
 public class Main {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         while ( in.hasNextInt() ) {
             int a = in.nextInt();
@@ -54,7 +54,8 @@ public class Main {
 :::
 
 ::: details 第2题——A+B问题II
-2. A+B问题II
+## 2. A+B问题II
+### 题目
 时间限制：1.000S  空间限制：32MB
 
 题目描述
@@ -85,7 +86,7 @@ public class Main {
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
             int n = scanner.nextInt();
@@ -94,6 +95,100 @@ public class Main {
                 int b = scanner.nextInt();
                 System.out.println(a + b);
             }
+        }
+    }
+}
+```
+:::
+
+::: details 第3题——A+B问题III
+## 3. A+B问题III
+### 题目
+时间限制：1.000S  空间限制：32MB
+
+题目描述
+> 你的任务依然是计算a+b。
+
+输入描述
+> 输入中每行是一对a和b。其中会有一对是0和0标志着输入结束，且这一对不要计算。
+
+输出描述
+> 对于输入的每对a和b，你需要在相应的行输出a、b的和。<br/>
+> 如第二对a和b，他们的和也输出在第二行。
+
+输入示例
+> 2 4 <br/>
+> 11 19 <br/>
+> 0 0
+
+输出示例
+> 6 <br/>
+> 30
+
+### 解题
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNextInt()) {
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            if (a == 0 && b == 0) {
+                break;
+            }
+            System.out.println(a + b);
+        }
+    }
+}
+```
+:::
+
+::: details 第4题——A+B问题IV
+## 4. A+B问题IV
+### 题目
+时间限制：1.000S  空间限制：32MB
+
+题目描述
+> 你的任务是计算若干整数的和。
+
+输入描述
+> 每行的第一个数N，表示本行后面有N个数。
+> 
+> 如果N=0时，表示输入结束，且这一行不要计算。
+
+输出描述
+> 对于每一行数据需要在相应的行输出和。
+
+输入示例
+> 4 1 2 3 4
+> 
+> 5 1 2 3 4 5
+> 
+> 0 
+
+输出示例
+> 10
+> 
+> 15
+
+### 解题
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            int n = scanner.nextInt();
+            if (n == 0) break;
+            
+            int sum = 0;
+            for (int i=0; i<n; i++) {
+                sum += scanner.nextInt();
+            }
+            System.out.println(sum);
         }
     }
 }

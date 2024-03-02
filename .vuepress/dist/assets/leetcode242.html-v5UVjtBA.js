@@ -1,7 +1,0 @@
-import{_ as e,o as d,c as t,e as a}from"./app-5vv6scfr.js";const c={},s=a(`<p>给定两个字符串 <code>s</code> 和 <code>t</code> ，编写一个函数来判断 <code>t</code> 是否是 <code>s</code> 的字母异位词。</p><p>注意：若 <code>s</code> 和 <code>t</code> 中每个字符出现的次数都相同，则称 <code>s</code> 和 <code>t</code> 互为字母异位词。</p><p>示例 1:</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>输入: s = &quot;anagram&quot;, t = &quot;nagaram&quot;
-输出: true
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>示例 2:</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>输入: s = &quot;rat&quot;, t = &quot;car&quot;
-输出: false
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>提示:</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>1 &lt;= s.length, t.length &lt;= 5 * 10^4
-s 和 t 仅包含小写字母
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>进阶: 如果输入字符串包含 <code>unicode</code> 字符怎么办？你能否调整你的解法来应对这种情况？</p><h2 id="解题思路" tabindex="-1"><a class="header-anchor" href="#解题思路" aria-hidden="true">#</a> 解题思路</h2>`,10),n=[s];function i(o,l){return d(),t("div",null,n)}const u=e(c,[["render",i],["__file","leetcode242.html.vue"]]);export{u as default};
