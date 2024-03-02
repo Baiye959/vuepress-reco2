@@ -194,3 +194,46 @@ public class Main {
 }
 ```
 :::
+
+::: details 第5题——A+B问题VII
+## 5. A+B问题VII
+### 题目
+时间限制：1.000S  空间限制：32MB
+
+题目描述
+> 你的任务是计算两个整数的和。
+
+输入描述
+> 输入包含若干行，每行输入两个整数a和b，由空格分隔。
+
+输出描述
+> 对于每组输入，输出a和b的和，每行输出后接一个空行。
+
+输入示例
+> 2 4
+>
+> 11 19
+
+输出示例
+> 6
+>
+> 30
+
+### 解题
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNextLine()) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            System.out.println(a + b);
+            System.out.println();
+        }
+    }
+}
+```
+:::
+
