@@ -5,8 +5,8 @@ modules:
   - Blog
   - Footer
 bannerBrand:
-  # bgImage: '/bg.svg'
-  bgImage: '/smile.jpg'
+  bgImage: '/bg.svg'
+  # bgImage: '/smile.jpg'
   title: '『万丈高楼平地起』勿在浮沙筑高台'
   # description: 且视他人之疑目如盏盏鬼火，大胆地去走你的夜路
   # tagline: “万丈高楼平地起，勿在浮沙筑高台”
