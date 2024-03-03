@@ -7,7 +7,6 @@ modules:
 bannerBrand:
   # bgImage: '/bg.svg'
   bgImage: '/smile.jpg'
-  # title: Hello, world!
   title: '『万丈高楼平地起』勿在浮沙筑高台'
   # description: 且视他人之疑目如盏盏鬼火，大胆地去走你的夜路
   # tagline: “万丈高楼平地起，勿在浮沙筑高台”
@@ -20,7 +19,6 @@ blog:
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/Baiye959' }
     - { icon: 'LetterCc', link: 'https://blog.csdn.net/Baiye959' }
-    # - { icon: 'LogoWechat', link: 'https://img2.imgtp.com/2024/01/22/DSIbWNaR.jpg' }
     - { icon: 'LogoWechat', link: 'https://baiye959.cn/wechat.jpg' }
     
 footer: # 底部模块的配置

@@ -22,14 +22,18 @@ export default defineUserConfig({
     // lastUpdatedText: "Last Update",
     // series 为原 sidebar
     series: {
-      "/docs/xmuai/": [
+      "/docs/interview/": [
         {
-          text: "Python基础",
-          children: ["python_1", "python_2"],
+          text: "计算机网络",
+          children: ["computer_networks_1", "computer_networks_2"],
         },
         {
-          text: "Mindspore入门",
-          children: ["mindspore_1", "mindspore_2"],
+          text: "数据库",
+          children: ["database_1", "database_2"],
+        },
+        {
+          text: "操作系统",
+          children: ["os_1", "os_2"],
         },
       ],
     },
@@ -43,7 +47,7 @@ export default defineUserConfig({
         text: "文档",
         children: [
           { text: "Linux基础使用方法", link: "/docs/linux/1" },
-          { text: "人工智能基础", link: "/docs/xmuai/python_1" },
+          { text: "八股速记", link: "/docs/interview/computer_networks_1" },
         ],
       },
     ],
