@@ -25,11 +25,11 @@ categories:
 :::
 
 ::: details 米哈游
-🔥米哈游24春季（24届应届+25届暑期实习+25届及以后日常实习）校招启动
-【招聘对象】24&25届毕业生
-【岗位类别】程序&技术类、美术&表现类、国际化类、运营类 市场&商务类、产品策划类、质量管理类、综合类
-【网申截止时间】5月10日
-【内推链接】
-[miHoYo招聘官网](https://jobs.mihoyo.com/?recommendationCode=VDS2&isRecommendation=true#/campus/position)
+🔥米哈游24春季（24届应届+25届暑期实习+25届及以后日常实习）校招启动<br/>
+【招聘对象】24&25届毕业生<br/>
+【岗位类别】程序&技术类、美术&表现类、国际化类、运营类 市场&商务类、产品策划类、质量管理类、综合类<br/>
+【网申截止时间】5月10日<br/>
+【内推链接】<br/>
+[miHoYo招聘官网](https://jobs.mihoyo.com/?recommendationCode=VDS2&isRecommendation=true#/campus/position)<br/>
 内推码 VDS2
 :::
