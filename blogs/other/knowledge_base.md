@@ -25,7 +25,11 @@ git clone https://huggingface.co/moka-ai/m3e-base
 
 下载源码
 ```bash
-git clone https://github.com/chatchat-space/Langchain-Chatchat.git
+# git clone https://github.com/chatchat-space/Langchain-Chatchat.git
+
+wget https://github.com/chatchat-space/Langchain-Chatchat/archive/refs/tags/v0.2.2.tar.gz
+tar -zxvf v0.2.2.tar.gz
+mv Langchain-Chatchat-0.2.2/ Langchain-Chatchat
 ```
 
 配置环境
@@ -38,19 +42,24 @@ conda install spacy
 cd Langchain-Chatchat
 pip install cchardet
 pip install accelerate
-# pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r requirements.txt # 这里有几个依赖很大，网速慢会超时爆红
 ```
 
 ::: warning
 现在做到这里了，当前目录没有下述文件，去看视频
+
+文件内容跟视频里不一样，应该是爬取的代码版本不一样<br/>
+视频是2023年8月发布的，可能是版本v0.2.2
+![版本v02.2链接](https://github.com/chatchat-space/Langchain-Chatchat/releases/tag/v0.2.2)
 :::
 
 生成并修改配置文件
 ```bash
-cp .\model_config.py.example .\model_config.py
-cp .\server_config.py.example .\server_config.py
+cd configs/
+cp model_config.py.example model_config.py
+cp server_config.py.example server_config.py
 
+vim model_config.py
 修改model_config.py内与模型相关的相关参数
 "m3e-base": "D:/models/m3e-base",
 "local_model_path": "D:/models/chatglm2-6b-32k",
