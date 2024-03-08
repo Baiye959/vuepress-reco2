@@ -15,7 +15,7 @@ export default defineUserConfig({
     autoSetSeries: true,
     style: "@vuepress-reco/style-default",
     // logo: "/glass.ico",
-    logo: "/cat1.jpg",
+    logo: "/cat1-removebg.png",
     author: "Baiye959",
     authorAvatar: "/cat.jpg",
     // docsRepo: "https://github.com/Baiye959/vuepress-reco2",

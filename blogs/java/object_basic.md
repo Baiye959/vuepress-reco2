@@ -31,4 +31,10 @@ IDEA快捷键 `alt+insert+fn` - "Constructor"+"Getter and Setter"<br/>
 插件PTG，右键点击"Ptg To JavaBean"
 :::
 
-## 对象内存图
+## this的本质
+this的本质：代表方法调用者的地址值
+```java
+this.name = name;
+```
+
+## 
