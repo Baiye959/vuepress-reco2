@@ -1,0 +1,8 @@
+import{_ as e,o as d,c as n,e as t}from"./app-ykgGb9cY.js";const a={},c=t(`<h2 id="_18-四数之和" tabindex="-1"><a class="header-anchor" href="#_18-四数之和" aria-hidden="true">#</a> 18. 四数之和</h2><p>给你一个由 <code>n</code> 个整数组成的数组 <code>nums</code> ，和一个目标值 <code>target</code> 。请你找出并返回满足下述全部条件且不重复的四元组 <code>[nums[a], nums[b], nums[c], nums[d]]</code> （若两个四元组元素一一对应，则认为两个四元组重复）：</p><ul><li><code>0 &lt;= a, b, c, d &lt; n</code></li><li><code>a</code>、<code>b</code>、<code>c</code> 和 <code>d</code> <b>互不相同</b></li><li><code>nums[a] + nums[b] + nums[c] + nums[d] == target</code> 你可以按 <b>任意顺序</b> 返回答案 。</li></ul><p>示例 1：</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>输入：nums = [1,0,-1,0,-2,2], target = 0
+输出：[[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>示例 2：</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>输入：nums = [2,2,2,2,2], target = 8
+输出：[[2,2,2,2]]
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>提示：</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>1 &lt;= nums.length &lt;= 200
+-10^9 &lt;= nums[i] &lt;= 10^9
+-10^9 &lt;= target &lt;= 10^9
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,9),s=[c];function i(l,o){return d(),n("div",null,s)}const u=e(a,[["render",i],["__file","leetcode18.html.vue"]]);export{u as default};

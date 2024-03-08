@@ -7,7 +7,7 @@ export default defineUserConfig({
   description: "Baiye959's Blog",
   head: [
     // ['link', { rel: 'icon', href: '/glass.ico' }],
-    ['link', { rel: 'icon', href: '/cat1.jpg' }],
+    ['link', { rel: 'icon', href: '/cat1-removebg.png' }],
     ['meta', { rel: 'author', content: 'Baiye959' }],
     ['meta', { rel: 'keywords', content: 'Baiye959, Blog, Java' }]
   ],
