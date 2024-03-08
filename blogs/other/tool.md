@@ -13,6 +13,7 @@ categories:
 | uTools | 快捷键「Alt + 空格」，呼出 uTools 搜索框 | [官方地址](https://u.tools/) |
 | 有道翻译 | 划词翻译、截图翻译 | [官网地址](https://fanyi.youdao.com/download-Windows/) |
 | Snipaste | 截图 + 贴图 | [官网地址](https://zh.snipaste.com/) |
+| DropPoint | Make Drag and Drop Easy：DropPoint在屏幕的一部分保存想要拖放的文件，这样就可以在没有并排窗口的情况下拖放内容 | [官网地址](https://droppoint.netlify.app/) |
 
 ## 笔记推荐
 
