@@ -28,5 +28,7 @@ categories:
 ::: tip 快速生成JavaBean类
 IDEA快捷键 `alt+insert+fn` - "Constructor"+"Getter and Setter"<br/>
 或<br/>
-
+插件PTG，右键点击"Ptg To JavaBean"
 :::
+
+## 对象内存图

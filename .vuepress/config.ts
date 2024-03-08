@@ -6,14 +6,16 @@ export default defineUserConfig({
   title: "Baiye959's Blog",
   description: "Baiye959's Blog",
   head: [
-    ['link', { rel: 'icon', href: '/glass.ico' }],
+    // ['link', { rel: 'icon', href: '/glass.ico' }],
+    ['link', { rel: 'icon', href: '/cat1.jpg' }],
     ['meta', { rel: 'author', content: 'Baiye959' }],
     ['meta', { rel: 'keywords', content: 'Baiye959, Blog, Java' }]
   ],
   theme: recoTheme({
     autoSetSeries: true,
     style: "@vuepress-reco/style-default",
-    logo: "/glass.ico",
+    // logo: "/glass.ico",
+    logo: "/cat1.jpg",
     author: "Baiye959",
     authorAvatar: "/cat.jpg",
     // docsRepo: "https://github.com/Baiye959/vuepress-reco2",
