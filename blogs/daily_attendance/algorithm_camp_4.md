@@ -7,11 +7,11 @@ categories:
 ::: info 交作业
 [24. 两两交换链表中的节点](/blogs/algorithm/leetcode24.md)<br/>
 [19. 删除链表的倒数第N个节点](/blogs/algorithm/leetcode19.md)<br/>
+[面试题 02.07. 链表相交](/blogs/algorithm/leetcode160.md)<br/>
 [142. 环形链表II](/blogs/algorithm/leetcode142.md)
 :::
 
 ::: warning 待完成
-- 面试题 02.07. 链表相交
 - 链表总结
 :::
 
