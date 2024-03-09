@@ -53,6 +53,20 @@ export default defineUserConfig({
         ],
       },
     ],
+    bulletin: {
+      body: [
+        {
+          type: "title",
+          content: "试一下浮窗",
+        },
+        {
+          type: "text",
+          content: `<img src="/cat2.jpg" />`,
+          style: "font-size: 12px;",
+        },
+
+      ],
+    },
     // bulletin: {
     //   body: [
     //     {
