@@ -68,4 +68,11 @@ MIT6.S081可以在wsl里写，所以linux教程先排到下周五下午。<br/>
 
 ::: details ✍🏻2024.03.09
 多巴胺脱敏治疗——每周一天避免刷手机等高多巴胺行为
+
+表情包！
+| bluff | guilty | heart | injured | melt |
+|:-:|:-:|:-:|:-:|:-:|
+| ![](/emoji/bluff_small.png) | ![](/emoji/guilty_small.png) |![](/emoji/heart_small.png) | ![](/emoji/injured_small.png) | ![](/emoji/melt_small.png) |
+| sad | smile | speechless | stand | stare |
+| ![](/emoji/sad_small.png) | ![](/emoji/smile_small.png) | ![](/emoji/speechless_small.png) | ![](/emoji/stand_small.png) | ![](/emoji/stare_small.png) |
 :::
