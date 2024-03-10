@@ -14,3 +14,6 @@ categories:
 4. 安装InfLink扩展和DowngradeOK扩展，重载网易云
     ![](/image/2024031002.png)
     ![](/image/2024031003.png)
+
+最终效果！
+![](/image/2024031004.png)
