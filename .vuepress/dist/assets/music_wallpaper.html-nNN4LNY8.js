@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0037c344","path":"/blogs/daily/music_wallpaper.html","title":"麻匪音频识别壁纸+网易云音乐","lang":"en-US","frontmatter":{"title":"麻匪音频识别壁纸+网易云音乐","date":"2024/03/10","categories":["日常"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/daily/music_wallpaper.md"}');export{e as data};
