@@ -76,3 +76,11 @@ MIT6.S081可以在wsl里写，所以linux教程先排到下周五下午。<br/>
 | sad | smile | speechless | stand | stare |
 | ![](/emoji/sad_small.png) | ![](/emoji/smile_small.png) | ![](/emoji/speechless_small.png) | ![](/emoji/stand_small.png) | ![](/emoji/stare_small.png) |
 :::
+
+::: details ✍🏻2024.03.10
+今天又去医院了，医生说这么年轻先不用做肠胃镜，又开了两周的消化酶，好耶
+![](/emoji/heart_small.png)
+
+起床完全忘了多巴胺脱敏治疗这件事，以后再试吧，出去看了一次电影感觉效率又上来了<br/>
+ps:张婧仪在电影里真的很好看，以后拍立得剧照出来补上
+:::

@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as _}from"./app-2_Am-DUF.js";const c={},n=_("p",null,"第二篇",-1),s=[n];function a(r,l){return t(),o("div",null,s)}const f=e(c,[["render",a],["__file","python_2.html.vue"]]);export{f as default};
