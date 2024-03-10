@@ -1,5 +1,5 @@
 ---
-title: LeetCode-1-两数之和 | 哈希表3
+title: LeetCode-1-两数之和 | 哈希表4
 date: 2024/03/03
 categories:
  - 算法

@@ -1,5 +1,5 @@
 ---
-title: LeetCode-142-环形链表 II | 链表6
+title: LeetCode-142-环形链表 II | 链表7
 date: 2024/03/01
 categories:
  - 算法
