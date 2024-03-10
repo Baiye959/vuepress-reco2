@@ -34,4 +34,31 @@ String s5 = new String(bytes);
 System.out.println(s5); // abc
 ```
 
-## 
+## String构建方法对应的内存分析和字符串比较
+### 内存分析
+1. 当使用双引号直接赋值时，系统会检查该字符串在串池中是否存在
+    - 不存在：创造新的
+    - 存在：直接复用
+2. 当使用new创建String时，系统会在堆里存放该字符串
+
+### 字符串比较
+```java
+String s1 = "abc"; // s1存放串池地址1
+String s2 = "abc"; // s2存放串池地址1
+System.out.println(s1 == s2); // true
+
+String s3 = new String("abc"); // s3存放堆地址1
+String s4 = new String("abc"); // s4存放堆地址2
+System.out.println(s3 == s4); // false
+
+System.out.println(s1 == s3); // false
+System.out.println(s1.equals(s3)); // true
+String s5 = new String("Abc");
+System.out.println(s1.equalsIgnoreCase(s5)); // true，忽略大小写对内容进行比较
+```
+
+`==`比较的是什么？
+- 对基本数据类型，比较的是数据值
+- 对引用数据类型，比较的是地址值
+
+## StringBuilder
