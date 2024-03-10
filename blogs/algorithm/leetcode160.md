@@ -73,6 +73,7 @@ listB 中节点数目为 n
 进阶：你能否设计一个时间复杂度 `O(m + n)` 、仅用 `O(1)` 内存的解决方案？
 
 ## 解题思路
+### 解法一
 刚看题目的想法是同时遍历两条链表、对两个指针作比较，但怎么让两个指针同时到达交点？<br/>
 可以先遍历一次，得出两条链表的长度，这题的相交是二汇一、不再错开，那么只要保证同时到达各自的终点，就能保证同时到达交点（如果有的话）
 
@@ -82,6 +83,17 @@ listB 中节点数目为 n
 3. 两个指针同时走，如果相等则为交点、走到终点以后（即为null）则无交点
 
 ```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode curA = headA;
@@ -125,5 +137,53 @@ public class Solution {
         return null;
     }
 
+}
+```
+
+### 解法二
+在群里看别人的代码发现一个新思路
+![](/image/2024031005.png)
+
+1. 让两个指针分别从链表A的头节点和链表B的头节点开始遍历
+2. 指针遍历完链表A就开始遍历链表B，同理遍历完链表B就开始遍历链表A
+3. 两指针相等时即在相交点
+
+两个指针走的路程分别是`a+x+b`和`b+x+a`时，恰好在相交点
+
+那么如何判断出不相交的情况呢？<br/>
+假设链表A长度为a，链表B长度为b，那么它们走的路程分别为`a+b`和`b+a`时，就会同时到链表末端。<br/>
+稍微修改代码，让指针每次走到尾节点的next（也就是null），再开始遍历另一个链表，这样它们走的路程分别为`a+1+b+1`和`b+1+a+1`时，就会同时、分别在两个链表的尾节点的next（null），这样如果指针相等就是找到了相交点/判断不相交。
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        ListNode a = headA, b = headB;
+        while (a != b) {
+            if (a != null) { // 注意这里不能是a.next != null
+                a = a.next;
+            } else {
+                a = headB;
+            }
+
+            if (b != null) { // 注意这里不能是b.next != null
+                b = b.next;
+            } else {
+                b = headA;
+            }
+        }
+
+        return a;
+    }
 }
 ```
