@@ -3,6 +3,8 @@ title: Java字符串
 date: 2024/03/10
 categories:
  - Java
+tags:
+ - JavaSE
 ---
 ## 创建String对象的两种方式
 ```java

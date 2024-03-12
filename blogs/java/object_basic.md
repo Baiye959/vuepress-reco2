@@ -3,6 +3,8 @@ title: Java面向对象基础
 date: 2024/03/07
 categories:
  - Java
+tags:
+ - JavaSE
 ---
 ## 构造方法
 1. 构造方法的作用？
