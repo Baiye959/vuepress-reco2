@@ -7,11 +7,8 @@ categories:
 ::: info 交作业
 [977. 有序数组的平方](/blogs/algorithm/leetcode977.md)<br/>
 [209. 长度最小的子数组](/blogs/algorithm/leetcode209.md)<br/>
-[59. 螺旋矩阵II](/blogs/algorithm/leetcode59.md)
-:::
-
-::: warning 数组总结
-先欠着！参考[代码随想录-数组总结篇](https://programmercarl.com/%E6%95%B0%E7%BB%84%E6%80%BB%E7%BB%93%E7%AF%87.html)
+[59. 螺旋矩阵II](/blogs/algorithm/leetcode59.md)<br/>
+[数组总结](/blogs/algorithm/array.md)
 :::
 
 ## 今日任务
