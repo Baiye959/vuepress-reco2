@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-1bbc4eeb","path":"/blogs/java/javaweb_1.html","title":"JavaWeb | 系统架构","lang":"en-US","frontmatter":{"title":"JavaWeb | 系统架构","date":"2024/03/12","categories":["Java"],"tags":["JavaWeb"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/java/javaweb_1.md"}');export{a as data};
