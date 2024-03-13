@@ -1,10 +1,12 @@
 ---
-title: KamaCoder-54-替换数字（第八期模拟笔试） | 字符串3
+title: KamaCoder-54-替换数字 | 字符串3
 date: 2024/03/12
 categories:
  - 算法
 ---
 ## 54. 替换数字（第八期模拟笔试）
+[卡码网：54.替换数字](https://kamacoder.com/problempage.php?pid=1064)
+
 题目描述
 > 给定一个字符串 s，它包含小写字母和数字字符，请编写一个函数，将字符串中的字母字符保持不变，而将每个数字字符替换为number。 例如，对于输入字符串 "a1b2c3"，函数应该将其转换为 "anumberbnumbercnumber"。
 
