@@ -17,7 +17,7 @@ export default defineUserConfig({
     // logo: "/glass.ico",
     logo: "/cat1-removebg.png",
     author: "Baiye959",
-    authorAvatar: "/cat.jpg",
+    authorAvatar: "/cat3.jpg",
     // docsRepo: "https://github.com/Baiye959/vuepress-reco2",
     // docsBranch: "main",
     // docsDir: "docs",

@@ -14,6 +14,7 @@ categories:
 | 有道翻译 | 划词翻译、截图翻译 | [官网地址](https://fanyi.youdao.com/download-Windows/) |
 | Snipaste | 截图 + 贴图 | [官网地址](https://zh.snipaste.com/) |
 | Bandizip | 免费、无广的解压软件 | [官网地址](https://www.bandisoft.com/bandizip/) |
+| MobaXterm | 远程连接工具 | [官网地址](https://mobaxterm.mobatek.net/) [下载地址](https://mobaxterm.mobatek.net/download.html) |
 
 ## 笔记推荐
 
