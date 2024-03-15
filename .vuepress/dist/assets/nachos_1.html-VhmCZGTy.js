@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-4f618415","path":"/blogs/other/nachos_1.html","title":"Nachos 实验一","lang":"en-US","frontmatter":{"title":"Nachos 实验一","date":"2024/03/15","categories":["other"],"tags":["Nachos"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/other/nachos_1.md"}');export{t as data};
