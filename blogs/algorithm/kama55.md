@@ -1,5 +1,5 @@
 ---
-title: KamaCoder-55-右旋字符串 | 字符串3
+title: KamaCoder-55-右旋字符串 | 字符串5
 date: 2024/03/13
 categories:
  - 算法
