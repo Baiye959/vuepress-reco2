@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-09c608ff","path":"/categories/daka/2/","title":"","lang":"en-US","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{e as data};
