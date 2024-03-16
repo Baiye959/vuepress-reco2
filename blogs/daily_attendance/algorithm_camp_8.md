@@ -9,7 +9,7 @@ categories:
 [541.反转字符串II](/blogs/algorithm/leetcode541.md)<br/>
 [卡码网：54.替换数字](/blogs/algorithm/kama54.md)<br/>
 [151.翻转字符串里的单词](/blogs/algorithm/leetcode151.md)<br/>
-[卡码网：55.右旋转字符串](https://kamacoder.com/problempage.php?pid=1065)
+[卡码网：55.右旋转字符串](/blogs/algorithm/kama55.md)
 :::
 
 ## 今日任务 
