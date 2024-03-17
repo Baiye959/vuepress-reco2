@@ -9,7 +9,7 @@ categories:
 [383.赎金信](/blogs/algorithm/leetcode383.md)<br/>
 [15.三数之和](/blogs/algorithm/leetcode15.md)<br/>
 [18.四数之和](/blogs/algorithm/leetcode18.md)<br/>
-[哈希表总结](/blogs/algorithm/hash.md)
+[哈希表总结](/blogs/algorithm/3_hash.md)
 :::
 
 ## 今日任务 

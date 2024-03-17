@@ -8,7 +8,7 @@ categories:
 [977. 有序数组的平方](/blogs/algorithm/leetcode977.md)<br/>
 [209. 长度最小的子数组](/blogs/algorithm/leetcode209.md)<br/>
 [59. 螺旋矩阵II](/blogs/algorithm/leetcode59.md)<br/>
-[数组总结](/blogs/algorithm/array.md)
+[数组总结](/blogs/algorithm/1_array.md)
 :::
 
 ## 今日任务

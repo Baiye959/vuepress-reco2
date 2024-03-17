@@ -6,7 +6,7 @@ categories:
 ---
 ::: info 交作业
 [字符串总结](/blogs/algorithm/string.md)<br/>
-[双指针回顾](/blogs/algorithm/two_pointer.md)
+[双指针回顾](/blogs/algorithm/5_two_pointer.md)
 :::
 
 ::: warning 待完成

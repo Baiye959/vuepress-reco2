@@ -9,7 +9,7 @@ categories:
 [19. 删除链表的倒数第N个节点](/blogs/algorithm/leetcode19.md)<br/>
 [面试题 02.07. 链表相交](/blogs/algorithm/leetcode160.md)<br/>
 [142. 环形链表II](/blogs/algorithm/leetcode142.md)<br/>
-[链表总结](/blogs/algorithm/linked_list.md)
+[链表总结](/blogs/algorithm/2_linked_list.md)
 :::
 
 ## 今日任务 
