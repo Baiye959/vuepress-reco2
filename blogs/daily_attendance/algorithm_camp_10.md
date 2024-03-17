@@ -4,6 +4,11 @@ date: 2024/03/15
 categories:
  - 打卡
 ---
+::: info 交作业
+[232.用栈实现队列](/blogs/algorithm/leetcode232.md)<br/>
+[225.用队列实现栈](/blogs/algorithm/leetcode225.md)
+:::
+
 ## 今日任务
 - 栈与队列理论基础
 - 232.用栈实现队列
