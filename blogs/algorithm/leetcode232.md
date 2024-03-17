@@ -1,6 +1,6 @@
 ---
 title: LeetCode-232-用栈实现队列 | 栈与队列1
-date: 2024/03/16
+date: 2024/03/17
 categories:
  - 算法
 ---
