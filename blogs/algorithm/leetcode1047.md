@@ -34,5 +34,19 @@ S 仅由小写英文字母组成。
 - [151.翻转字符串里的单词](/blogs/algorithm/leetcode151.md)：数组/字符串删除类问题，一指针指向不保留元素、一指针指向保留元素，保留元素赋值给不保留位
 
 ```java
-
+class Solution {
+    public String removeDuplicates(String s) {
+        char[] chs = s.toCharArray();
+        int slow = 0;
+        for (int fast = 0; fast < chs.length; fast++) {
+            chs[slow] = chs[fast];
+            if (slow > 0 && chs[slow] == chs[slow - 1]) { // slow检测、fast覆盖
+                slow --;
+            } else {
+                slow ++;
+            }
+        }
+        return new String(chs, 0, slow);
+    }
+}
 ```

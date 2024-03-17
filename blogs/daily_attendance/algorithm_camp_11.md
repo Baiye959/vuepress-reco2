@@ -6,13 +6,9 @@ categories:
 ---
 ::: info 交作业
 [20.有效的括号](/blogs/algorithm/leetcode20.md)<br/>
+[1047.删除字符串中的所有相邻重复项](/blogs/algorithm/leetcode1047.md)<br/>
+[150.逆波兰表达式求值](/blogs/algorithm/leetcode150.md)
 :::
-
-::: warning 待完成
-- 1047.删除字符串中的所有相邻重复项
-- 150.逆波兰表达式求值
-:::
-
 
 ## 今日任务
 - 20.有效的括号
