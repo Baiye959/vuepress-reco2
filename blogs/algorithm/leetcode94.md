@@ -68,3 +68,26 @@ class Solution {
 ```
 
 ### 解法二（迭代）
+```java
+class Solution {
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> ret = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        
+        // 中-左-右
+        if (root != null) stack.add(root);
+        while (stack.empty() == false) {
+            TreeNode cur = stack.pop(); // 中
+            ret.add(cur.val);
+            if (cur.right != null) {
+                stack.push(cur.right); // 右
+            } 
+            if (cur.left != null) {
+                stack.push(cur.left); // 左
+            }
+        }
+        
+        return ret;
+    }
+}
+```

@@ -186,5 +186,107 @@ class Solution {
 }
 ```
 
-## 统一迭代
+## 统一迭代（标记法）
+使用栈的话，会出现无法同时解决访问节点（遍历节点）和处理节点（将元素放进结果集）不一致的情况。
 
+为了解决这个问题，将访问的节点放入栈中，把要处理的节点也放入栈中但是要做标记。<br/>
+如何标记呢，就是要处理的节点放入栈之后，紧接着放入一个空指针作为标记。 这种方法也可以叫做标记法。
+
+### 前序遍历
+```java
+class Solution {
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> ret = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+
+        if (root != null) {
+            stack.push(root);
+        }
+        while (stack.empty() == false) {
+            TreeNode cur = stack.pop();
+            if (cur == null) { // 是标记节点，只需要处理
+                cur = stack.pop();
+                ret.add(cur.val);
+            } else { // 不是标记节点，只要实现遍历、标记当前节点（中）
+                // 前序遍历 中-左-右 <- 右-左-中
+                if (cur.right != null) {
+                    stack.push(cur.right);
+                }
+                if (cur.left != null) {
+                    stack.push(cur.left);
+                }
+                stack.push(cur);
+                stack.push(null);
+            }
+        }
+        
+        return ret;
+    }
+}
+```
+
+### 后序遍历
+```java
+class Solution {
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> ret = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        
+        if (root != null) {
+            stack.push(root);
+        }
+        while (stack.empty() == false) {
+            TreeNode cur = stack.pop();
+            if (cur == null) { // 是标记节点，只需要做处理
+                cur = stack.pop();
+                ret.add(cur.val);
+            } else { // 不是标记节点，要实现遍历，标记当前节点（中）
+                // 后序遍历 左-右-中 <- 中-右-左
+                stack.push(cur); // 中
+                stack.push(null);
+                if (cur.right != null) { // 右
+                    stack.push(cur.right);
+                }
+                if (cur.left != null) { // 左
+                    stack.push(cur.left);
+                }
+            }
+        }
+
+        return ret;
+    }
+}
+```
+
+### 中序遍历
+```java
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> ret = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        
+        if (root != null) {
+            stack.push(root);
+        }
+        while (stack.empty() == false) {
+            TreeNode cur = stack.pop();
+            if (cur == null) { // 是标记节点，只需要做处理
+                cur = stack.pop();
+                ret.add(cur.val);
+            } else { // 不是标记节点，要实现遍历，标记当前节点（中）
+                // 中序遍历 左-中-右 <- 右-中-左
+                if (cur.right != null) { // 右
+                    stack.push(cur.right);
+                }
+                stack.push(cur); // 中
+                stack.push(null);
+                if (cur.left != null) { // 左
+                    stack.push(cur.left);
+                }
+            }
+        }
+
+        return ret;
+    }
+}
+```

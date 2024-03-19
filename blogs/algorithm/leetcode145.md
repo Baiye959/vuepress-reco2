@@ -68,3 +68,27 @@ class Solution {
 ```
 
 ### 解法二（迭代）
+```java
+class Solution {
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> ret = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+
+        // 左-右-中 <- 中-右-左
+        if (root != null) stack.push(root);
+        while (stack.empty() == false) {
+            TreeNode cur = stack.pop();
+            ret.add(cur.val);
+            if (cur.left != null) {
+                stack.push(cur.left);
+            }
+            if (cur.right != null) {
+                stack.push(cur.right);
+            }
+        }
+
+        Collections.reverse(ret);
+        return ret;
+    }
+}
+```
