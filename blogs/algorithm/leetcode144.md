@@ -1,5 +1,5 @@
 ---
-title: LeetCode-144-二叉树的前序遍历 | 二叉树1-1
+title: LeetCode-144-二叉树的前序遍历 | 二叉树1
 date: 2024/03/19
 categories:
  - 算法

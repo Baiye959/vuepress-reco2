@@ -1,5 +1,5 @@
 ---
-title: LeetCode-637-二叉树的层平均值 | 二叉树2-4
+title: LeetCode-637-二叉树的层平均值 | 二叉树7
 date: 2024/03/20
 categories:
  - 算法

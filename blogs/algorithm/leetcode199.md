@@ -1,5 +1,5 @@
 ---
-title: LeetCode-199-二叉树的右视图 | 二叉树2-3
+title: LeetCode-199-二叉树的右视图 | 二叉树6
 date: 2024/03/20
 categories:
  - 算法

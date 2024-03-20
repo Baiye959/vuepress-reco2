@@ -1,5 +1,5 @@
 ---
-title: LeetCode-111-二叉树的最小深度 | 二叉树2-10
+title: LeetCode-111-二叉树的最小深度 | 二叉树13
 date: 2024/03/20
 categories:
  - 算法

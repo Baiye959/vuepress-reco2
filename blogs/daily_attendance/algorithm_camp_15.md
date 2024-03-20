@@ -5,7 +5,7 @@ categories:
  - 打卡
 ---
 ::: info 交作业
-[层序遍历](/blogs/algorithm/binary_tree_traversal.html#层序遍历)<br/>
+[层序遍历](/blogs/algorithm/binary_tree_traversal.md#层序遍历)<br/>
 [102.二叉树的层序遍历](/blogs/algorithm/leetcode102.md)<br/>
 [107.二叉树的层次遍历II](/blogs/algorithm/leetcode107.md)<br/>
 [199.二叉树的右视图](/blogs/algorithm/leetcode199.md)<br/>
@@ -16,11 +16,12 @@ categories:
 [117.填充每个节点的下一个右侧节点指针II](/blogs/algorithm/leetcode117.md)<br/>
 [104.二叉树的最大深度](/blogs/algorithm/leetcode104.md)<br/>
 [111.二叉树的最小深度](/blogs/algorithm/leetcode111.md)
-:::
 
-::: warning 待完成
-- 226.翻转二叉树 
-- 101.对称二叉树 2 
+[226.翻转二叉树](/blogs/algorithm/leetcode226.md)
+
+[101.对称二叉树](/blogs/algorithm/leetcode101.md)<br/>
+[100.相同的树](/blogs/algorithm/leetcode100.md)<br/>
+[572.另一个树的子树](/blogs/algorithm/leetcode572.md)
 :::
 
 ## 今日任务

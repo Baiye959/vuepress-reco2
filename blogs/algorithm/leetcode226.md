@@ -1,14 +1,13 @@
 ---
-title: LeetCode-226-翻转二叉树 | 二叉树3
+title: LeetCode-226-翻转二叉树 | 二叉树14
 date: 2024/03/20
 categories:
  - 算法
 ---
 ## 226. 翻转二叉树
-给你一棵二叉树的根节点 root ，翻转这棵二叉树，并返回其根节点。
+给你一棵二叉树的根节点 `root` ，翻转这棵二叉树，并返回其根节点。
 
  
-
 示例 1：
 ![](/image/2024032009.jpg)
 ```
@@ -80,3 +79,40 @@ class Solution {
 ```
 ![](/image/2024032011.png)
 
+## 解法二（递归）
+```java
+// 前序遍历
+class Solution {
+    public TreeNode invertTree(TreeNode root) {
+        invert(root);
+        return root;
+    }
+    public void invert(TreeNode root) {
+        if (root == null) return;
+
+        TreeNode tmp = root.left; // 中
+        root.left = root.right;
+        root.right = tmp;
+        invert(root.left); // 左
+        invert(root.right); // 右
+    }
+}
+```
+```java
+// 后序遍历
+class Solution {
+    public TreeNode invertTree(TreeNode root) {
+        invert(root);
+        return root;
+    }
+    public void invert(TreeNode root) {
+        if (root == null) return;
+
+        invert(root.left); // 左
+        invert(root.right); // 右 
+        TreeNode tmp = root.left; // 中
+        root.left = root.right;
+        root.right = tmp;
+    }
+}
+```

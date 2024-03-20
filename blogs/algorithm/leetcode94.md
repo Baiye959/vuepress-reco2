@@ -1,5 +1,5 @@
 ---
-title: LeetCode-94-二叉树的中序遍历 | 二叉树1-3
+title: LeetCode-94-二叉树的中序遍历 | 二叉树3
 date: 2024/03/19
 categories:
  - 算法

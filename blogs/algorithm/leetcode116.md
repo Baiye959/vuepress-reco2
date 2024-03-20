@@ -1,5 +1,5 @@
 ---
-title: LeetCode-116-填充每个节点的下一个右侧节点指针 | 二叉树2-7
+title: LeetCode-116-填充每个节点的下一个右侧节点指针 | 二叉树10
 date: 2024/03/20
 categories:
  - 算法
