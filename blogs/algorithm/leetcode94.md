@@ -1,5 +1,5 @@
 ---
-title: LeetCode-94-二叉树的中序遍历 | 二叉树3
+title: LeetCode-94-二叉树的中序遍历 | 二叉树1-3
 date: 2024/03/19
 categories:
  - 算法
@@ -87,6 +87,39 @@ class Solution {
             }
         }
         
+        return ret;
+    }
+}
+```
+
+### 解法三（统一迭代 标记法）
+```java
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> ret = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        
+        if (root != null) {
+            stack.push(root);
+        }
+        while (stack.empty() == false) {
+            TreeNode cur = stack.pop();
+            if (cur == null) { // 是标记节点，只需要做处理
+                cur = stack.pop();
+                ret.add(cur.val);
+            } else { // 不是标记节点，要实现遍历，标记当前节点（中）
+                // 中序遍历 左-中-右 <- 右-中-左
+                if (cur.right != null) { // 右
+                    stack.push(cur.right);
+                }
+                stack.push(cur); // 中
+                stack.push(null);
+                if (cur.left != null) { // 左
+                    stack.push(cur.left);
+                }
+            }
+        }
+
         return ret;
     }
 }

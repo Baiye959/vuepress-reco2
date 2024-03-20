@@ -1,5 +1,5 @@
 ---
-title: LeetCode-144-二叉树的前序遍历 | 二叉树1
+title: LeetCode-144-二叉树的前序遍历 | 二叉树1-1
 date: 2024/03/19
 categories:
  - 算法
@@ -118,6 +118,39 @@ class Solution {
             } 
             if (cur.left != null) {
                 stack.push(cur.left); // 左
+            }
+        }
+        
+        return ret;
+    }
+}
+```
+
+### 解法三（统一迭代 标记法）
+```java
+class Solution {
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> ret = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+
+        if (root != null) {
+            stack.push(root);
+        }
+        while (stack.empty() == false) {
+            TreeNode cur = stack.pop();
+            if (cur == null) { // 是标记节点，只需要处理
+                cur = stack.pop();
+                ret.add(cur.val);
+            } else { // 不是标记节点，只要实现遍历、标记当前节点（中）
+                // 前序遍历 中-左-右 <- 右-左-中
+                if (cur.right != null) {
+                    stack.push(cur.right);
+                }
+                if (cur.left != null) {
+                    stack.push(cur.left);
+                }
+                stack.push(cur);
+                stack.push(null);
             }
         }
         

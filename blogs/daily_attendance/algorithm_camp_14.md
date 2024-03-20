@@ -5,7 +5,7 @@ categories:
  - 打卡
 ---
 ::: info 交作业
-[二叉树基础](/blogs/algorithm/binary_tree_base.md)<br/>
+[二叉树遍历](/blogs/algorithm/binary_tree_traversal.md)<br/>
 [144.二叉树的前序遍历](/blogs/algorithm/leetcode144.md)<br/>
 [145.二叉树的后序遍历](/blogs/algorithm/leetcode145.md)<br/>
 [94.二叉树的中序遍历](/blogs/algorithm/leetcode94.md)
