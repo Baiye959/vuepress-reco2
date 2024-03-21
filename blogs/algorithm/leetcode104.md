@@ -29,8 +29,7 @@ categories:
 ```
 
 ## 解题思路
-层序遍历
-
+### 解法一（层序遍历）
 ```java
 /**
  * Definition for a binary tree node.
@@ -69,6 +68,16 @@ class Solution {
             }
         }
         return depth;
+    }
+}
+```
+
+### 解法二（递归）
+```java
+class Solution {
+    public int maxDepth(TreeNode root) {
+        if (root == null) return 0;
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 }
 ```

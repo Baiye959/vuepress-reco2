@@ -4,6 +4,13 @@ date: 2024/03/21
 categories:
  - 打卡
 ---
+::: 交作业
+[104.二叉树的最大深度](/blogs/algorithm/leetcode104.md)<br/>
+[559.n叉树的最大深度](/blogs/algorithm/leetcode559.md)<br/>
+[111.二叉树的最小深度](/blogs/algorithm/leetcode111.md)<br/>
+[222.完全二叉树的节点个数](/blogs/algorithm/leetcode222.md)
+:::
+
 ## 今日任务
 - 104.二叉树的最大深度
 - 559.n叉树的最大深度

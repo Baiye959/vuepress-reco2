@@ -81,4 +81,14 @@ class Solution {
 ```
 
 ### 解法二（递归）
-暂时不写
+注意需要考虑只有一边子树为空的情况，这时候不应该返回1
+```java
+class Solution {
+    public int minDepth(TreeNode root) {
+        if (root == null) return 0;
+        if (root.left == null) return minDepth(root.right) + 1;
+        if (root.right == null) return minDepth(root.left) + 1;
+        return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
+    }
+}
+```

@@ -1,5 +1,5 @@
 ---
-title: LeetCode-572-另一棵树的子树 | 二叉树补充
+title: LeetCode-572-另一棵树的子树 | 二叉树17
 date: 2024/03/20
 categories:
  - 算法
