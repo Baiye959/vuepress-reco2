@@ -4,10 +4,10 @@ date: 2024/03/22
 categories:
  - 打卡
 ---
-::: warning 待完成
-- 110.平衡二叉树 
-- 257.二叉树的所有路径 
-- 404.左叶子之和 
+::: info 交作业
+[110.平衡二叉树](/blogs/algorithm/leetcode110.md)<br/>
+[257.二叉树的所有路径](/blogs/algorithm/leetcode257.md)<br/>
+[404.左叶子之和](/blogs/algorithm/leetcode404.md)
 :::
 
 ## 今日任务
