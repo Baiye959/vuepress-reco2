@@ -1,0 +1,11 @@
+import{_ as n,a as s}from"./2024032304-JreiOmt9.js";import{_ as d,r as i,o as l,c as r,a as e,b as a,d as o,w as c,e as u}from"./app-zb4KzgWw.js";const m={},v=u('<h2 id="_113-路径总和-ii" tabindex="-1"><a class="header-anchor" href="#_113-路径总和-ii" aria-hidden="true">#</a> 113. 路径总和 II</h2><p>给你二叉树的根节点 <code>root</code> 和一个整数目标和 <code>targetSum</code> ，找出所有 <strong>从根节点到叶子节点</strong> 路径总和等于给定目标和的路径。</p><p><strong>叶子节点</strong> 是指没有子节点的节点。</p><p>示例 1： <img src="'+n+`" alt=""></p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>输入：root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
+输出：[[5,4,11,2],[5,8,4,5]]
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>示例 2： <img src="`+s+`" alt=""></p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>输入：root = [1,2,3], targetSum = 5
+输出：[]
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>示例 3：</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>输入：root = [1,2], targetSum = 0
+输出：[]
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>提示：</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>树中节点总数在范围 [0, 5000] 内
+-1000 &lt;= Node.val &lt;= 1000
+-1000 &lt;= targetSum &lt;= 1000
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="解题思路" tabindex="-1"><a class="header-anchor" href="#解题思路" aria-hidden="true">#</a> 解题思路</h2><p>递归</p>`,13),g=e("div",{class:"language-java line-numbers-mode","data-ext":"java"},[e("pre",{class:"language-java"},[e("code",null,`
+`)]),e("div",{class:"line-numbers","aria-hidden":"true"},[e("div",{class:"line-number"})])],-1);function p(_,h){const t=i("RouterLink");return l(),r("div",null,[v,e("p",null,[a("这题跟"),o(t,{to:"/blogs/algorithm/leetcode112.html"},{default:c(()=>[a("112.路径总和")]),_:1}),a("相比只是需要记录路径，添加路径和结果集为参数即可，需要注意处理回溯问题。")]),g])}const f=d(m,[["render",p],["__file","leetcode113.html.vue"]]);export{f as default};
