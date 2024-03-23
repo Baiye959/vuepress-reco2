@@ -4,10 +4,12 @@ date: 2024/03/23
 categories:
  - 打卡
 ---
-::: warning 待完成
-- 513.找树左下角的值
-- 112.路径总和 113.路径总和 II
-- 106.从中序与后序遍历序列构造二叉树 105.从前序与中序遍历序列构造二叉树
+::: info 交作业
+[513.找树左下角的值](/blogs/algorithm/leetcode513.md)<br/>
+[112.路径总和](/blogs/algorithm/leetcode112.md)<br/>
+[113.路径总和 II](/blogs/algorithm/leetcode113.md)<br/>
+[106.从中序与后序遍历序列构造二叉树](/blogs/algorithm/leetcode106.md)<br/>
+[105.从前序与中序遍历序列构造二叉树](/blogs/algorithm/leetcode105.md)
 :::
 
 ## 今日任务
