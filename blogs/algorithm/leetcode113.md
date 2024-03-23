@@ -38,7 +38,7 @@ categories:
 ## 解题思路
 递归
 
-这题跟[112.路径总和](/blogs/algorithm/leetcode112.md)相比只是需要记录路径，添加路径和结果集为参数即可，需要注意处理回溯问题。
+这题跟[112.路径总和](/blogs/algorithm/leetcode112.md)相比只是需要记录路径，添加路径和结果集为参数即可，需要注意处理回溯问题。（路径记录可参考[257.二叉树的所有路径](/blogs/algorithm/leetcode257.md)）
 
 ```java
 
