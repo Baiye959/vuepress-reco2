@@ -5,6 +5,8 @@ categories:
  - 打卡
 sticky: 3
 ---
+[ACM 模式输入输出练习](/blogs/algorithm/acm_io.md)
+
 ## 数组
 [704. 二分查找](/blogs/algorithm/leetcode704.md)<br/>
 [27. 移除元素](/blogs/algorithm/leetcode27.md)<br/>
@@ -124,3 +126,4 @@ sticky: 3
 **从中序与后序遍历序列构造二叉树**<br/>
 [106.从中序与后序遍历序列构造二叉树](/blogs/algorithm/leetcode106.md)<br/>
 [105.从前序与中序遍历序列构造二叉树](/blogs/algorithm/leetcode105.md)
+
