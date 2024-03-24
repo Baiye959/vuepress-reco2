@@ -35,9 +35,22 @@ categories:
 -2^31 <= Node.val <= 2^31 - 1
 ```
 
-## 解题思路
-递归判断
+## Java基础补充
+```java
+import java.util.ArrayList; // import the ArrayList class
 
+ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
+
+cars.add("Ford");
+cars.get(0);
+cars.set(0, "Opel");
+cars.remove(0);
+cars.clear();
+cars.size();
+```
+
+## 解题思路
+### 解法一（递归 不利用特性直接判断）
 这里加了isLeft和isRight，说明是否要履行左子树和右子树的义务。<br/>
 因为值的范围太大了，义务初始化成整数的最大值和最小值也会出错。
 ```java
@@ -72,6 +85,56 @@ class Solution {
         // 左子树增加小于当前节点的义务、右子树增加大于当前节点的义务
         return isValid(root.left, Math.min(min, root.val), max, true, isRight) && 
             isValid(root.right, min, Math.max(max, root.val), isLeft, true);
+    }
+}
+```
+
+### 解法二（递归 利用特性直接判断）
+利用二叉搜索树的特性：**二叉搜索树的中序遍历序列是有序序列**
+
+递归进行中序遍历，与上一个节点比较即可
+
+```java
+class Solution {
+    // 需要pre在退出递归时改变
+    TreeNode pre = null;
+    public boolean isValidBST(TreeNode root) {
+        if (root == null) return true;
+        
+        // 检验左子树
+        if (isValidBST(root.left) == false) return false;
+        // 检验当前节点
+        if (pre != null && pre.val >= root.val) return false;
+        // 检验右子树
+        pre = root;
+        return isValidBST(root.right);        
+    }
+}
+```
+
+### 解法三（递归 转换为序列判断）
+利用二叉搜索树的特性：**二叉搜索树的中序遍历序列是有序序列**
+
+递归进行中序遍历，转换为数组，再进行判断
+
+```java
+class Solution {
+    public void inorderTraversal(TreeNode root, List<Integer> bst) {
+        if (root == null) return;
+        inorderTraversal(root.left, bst);
+        bst.add(root.val);
+        inorderTraversal(root.right, bst);
+    }
+
+    public boolean isValidBST(TreeNode root) {
+        List<Integer> bst = new ArrayList<>();
+        inorderTraversal(root, bst);
+        for (int i = 0; i < bst.size(); i++) {
+            if (i != 0 && bst.get(i-1) >= bst.get(i)){ // 中序遍历序列应该单调递增
+                return false;
+            }
+        }
+        return true;
     }
 }
 ```
