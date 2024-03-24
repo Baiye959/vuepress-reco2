@@ -31,6 +31,7 @@ categories:
 ```
 
 ## 解题思路
+### 解法一
 只要按照二叉搜索树的规则去遍历，遇到null时插入节点就可以了
 
 ```java
@@ -69,6 +70,26 @@ class Solution {
                     cur = cur.right;
                 }
             }   
+        }
+        return root;
+    }
+}
+```
+
+### 解法二
+递归，需要明确：函数意为向root为根的子树插入值为val的新节点、返回值为插入后的新子树。
+
+```java
+class Solution {
+    public TreeNode insertIntoBST(TreeNode root, int val) {
+        if (root == null) {
+            TreeNode newNode = new TreeNode(val);
+            return newNode;
+        }
+        if (val < root.val) {
+            root.left = insertIntoBST(root.left, val);
+        } else {
+            root.right = insertIntoBST(root.right, val);
         }
         return root;
     }

@@ -1,0 +1,1 @@
+import{_ as t,o,c as _,a as e}from"./app-5XYVg856.js";const c="/image/2024030301.jpg",s={},r=e("p",null,[e("img",{src:c,alt:""})],-1),n=[r];function a(l,m){return o(),_("div",null,n)}const p=t(s,[["render",a],["__file","computer_networks_2.html.vue"]]);export{p as default};
