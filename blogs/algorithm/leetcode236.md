@@ -40,3 +40,39 @@ p 和 q 均存在于给定的二叉树中。
 ```
 
 ## 解题思路
+这题要找最近公共祖先，应该从下往上搜索，对应后序遍历（左-右-中）
+
+返回值的定义：
+1. null：未找到p或q
+2. p / q：找到p / q
+3. 非p、q的节点：找到最近公共祖先
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || root == p || root == q) {
+            return root;
+        }
+        
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+
+        if (left != null && right != null) {
+            return root;
+        } else if (left == null) {
+            return right;
+        } else {
+            return left;
+        }
+    }
+}
+```
