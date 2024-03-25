@@ -47,6 +47,9 @@ root 是合法的二叉搜索树
 进阶： 要求算法时间复杂度为 `O(h)`，`h` 为树的高度。
 
 ## 解题思路
+在树中如何删除当前节点？<br/>
+递归函数`f`的返回值为节点，那么在处理当前节点`cur`时，执行**cur.left = f(cur.left, ...)**，`cur.left`就可以在自己那层递归 通过`return`其他的节点 将自己删除。
+
 考虑删除时的几种情况：
 1. 删除节点不存在，直接返回null
 2. 删除节点无左子树和右子树，直接返回null
@@ -59,5 +62,43 @@ root 是合法的二叉搜索树
 ![](/image/2024032502.png)
 
 ```java
-
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public TreeNode deleteNode(TreeNode root, int key) {
+        if (root == null) return null;
+        if (root.val == key) {
+            if (root.left == null) {
+                return root.right;
+            } else if (root.right == null) {
+                return root.left;
+            } else {
+                TreeNode cur = root.right;
+                while (cur.left != null) {
+                    cur = cur.left;
+                }
+                cur.left = root.left;
+                return root.right;
+            }
+        } else if (key < root.val) {
+            root.left = deleteNode(root.left, key);
+        } else {
+            root.right = deleteNode(root.right, key);
+        }
+        return root;
+    }
+}
 ```
