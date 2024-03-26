@@ -1,6 +1,6 @@
 ---
 title: LeetCode-669-修剪二叉搜索树 | 二叉树38
-date: 2024/03/25
+date: 2024/03/26
 categories:
  - 算法
 ---
@@ -33,3 +33,25 @@ categories:
 ```
 
 ## 解题思路
+在递归中删除当前节点——执行`cur.left = f(cur.left)`，这样`cur.left`就能通过return别的节点来删除自己。
+
+修建二叉搜索树不能单纯地通过判断子树根节点来修剪整个子树，只能删除根节点和某支子树。<br/>
+因此，应该在当前轮修剪左孩子和右孩子（不知道当前节点自身是左孩子还是右孩子），如果左右孩子均符合则递归判断左右孩子的左右孩子。
+
+题解不太清晰，看代码
+```java
+class Solution {
+    public TreeNode trimBST(TreeNode root, int low, int high) {
+        if (root == null) return null;
+        if (root.val < low) {
+            return trimBST(root.right, low, high);
+        }
+        if (root.val > high) {
+            return trimBST(root.left, low, high);
+        }
+        TreeNode left = trimBST(root.left, low, high);
+        TreeNode right = trimBST(root.right, low, high);
+        return new TreeNode(root.val, left, right);
+    }
+}
+```

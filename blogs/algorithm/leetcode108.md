@@ -1,6 +1,6 @@
 ---
 title: LeetCode-108-将有序数组转换为二叉搜索树 | 二叉树39
-date: 2024/03/25
+date: 2024/03/26
 categories:
  - 算法
 ---
@@ -32,4 +32,19 @@ categories:
 1 <= nums.length <= 10^4
 -10^4 <= nums[i] <= 10^4
 nums 按 严格递增 顺序排列
+```
+
+## 解题思路
+寻找有序数组的分割点，分割点作为当前节点，然后递归左区间和右区间
+
+```java
+class Solution {
+    public TreeNode sortedArrayToBST(int[] nums) {
+        if (nums == null || nums.length == 0) return null;
+        int len = nums.length;
+        TreeNode left = sortedArrayToBST(Arrays.copyOfRange(nums, 0, len/2));
+        TreeNode right = sortedArrayToBST(Arrays.copyOfRange(nums, len/2+1, len));
+        return new TreeNode(nums[len/2], left, right);
+    }
+}
 ```
