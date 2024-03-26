@@ -127,7 +127,7 @@ sticky: 3
 [106.从中序与后序遍历序列构造二叉树](/blogs/algorithm/leetcode106.md)<br/>
 [105.从前序与中序遍历序列构造二叉树](/blogs/algorithm/leetcode105.md)
 
-**其他**
+**其他**<br/>
 [654.最大二叉树](/blogs/algorithm/leetcode654.md)<br/>
 [617.合并二叉树](/blogs/algorithm/leetcode617.md)<br/>
 [700.二叉搜索树中的搜索](/blogs/algorithm/leetcode700.md)<br/>
@@ -141,5 +141,5 @@ sticky: 3
 [108.将有序数组转换为二叉搜索树](/blogs/algorithm/leetcode108.md)<br/>
 [538.把二叉搜索树转换为累加树](/blogs/algorithm/leetcode538.md)
 
-**总结**
+**总结**<br/>
 [二叉树总结](/blogs/algorithm/7_binary_tree.md)
