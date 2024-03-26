@@ -46,5 +46,37 @@ categories:
 - Swagger+Knife4j接口文档生成
 - Hutool、Apache Common Utils、Gson等工具库
 
-## 四、项目过程记录
-[1. 项目初始化](/blogs/projects/api1.md)<br/>
+## 四、项目初始化
+### Git
+[.gitignore参考](https://github.com/github/gitignore)
+```bash
+git config --global core.excludesfile .gitignore
+git config core.excludesfile .\api-backend\.gitignore
+```
+
+### 前端
+[Ant Design Pro](https://pro.ant.design/zh-CN/)
+
+### 后端
+Spring Boot 基础增删改查
+
+## 五、数据库表设计
+```sql
+-- 接口信息表
+create table if not exists my_db.`interface_info`
+(
+    `id` bigint not null auto_increment comment '主键' primary key,
+    `name` varchar(256) not null comment '名称',
+    `description` varchar(256) null comment '描述',
+    `url` varchar(512) not null comment '接口地址',
+    `requestHeader` text null comment '请求头',
+    `responseHeader` text null comment '响应头',
+    `status` int default 0 not null comment '接口状态(0-关闭，1-开启)',
+    `method` varchar(256) not null comment '请求类型',
+    `userId` bigint not null comment '创建人',
+    `createTime` datetime default CURRENT_TIMESTAMP not null comment '创建时间',
+    `updateTime` datetime default CURRENT_TIMESTAMP not null on update CURRENT_TIMESTAMP comment '更新时间',
+    `isDelete` tinyint default 0 not null comment '是否删除(0-未删，1-已删)'
+)comment '接口信息';
+```
+
