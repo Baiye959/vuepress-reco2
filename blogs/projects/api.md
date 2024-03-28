@@ -80,3 +80,8 @@ create table if not exists my_db.`interface_info`
 )comment '接口信息';
 ```
 
+## 六、前后端基础功能开发
+后端：使用MybatisX插件生成 增删改查、登录功能 后端代码
+前端接口调用：后端使用遵循openapi的规范的swagger文档，使用前端Ant Design Pro框架集成的oneapi插件自动生成。
+
+## 

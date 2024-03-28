@@ -1,5 +1,5 @@
 ---
-title: 代码随想录算法训练营合集
+title: 算法合集
 date: 2024/03/23
 categories:
  - 打卡
