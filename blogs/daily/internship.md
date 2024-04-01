@@ -7,7 +7,7 @@ password: 0e0d738a29f36c6ad4b53a10ec010489
 ---
 
 ## 已投
-::: details 快手（3.31晚 Java开发工程师）
+::: details 快手（3.31晚-Java开发工程师）
 [投递岗位](https://campus.kuaishou.cn/recruit/campus/e/#/campus/job-info/5993)<br/>
 [投递记录](https://campus.kuaishou.cn/recruit/campus/e/#/campus/my-apply)<br/>
 ![](/image/2024033102.png)
@@ -17,11 +17,9 @@ password: 0e0d738a29f36c6ad4b53a10ec010489
 
 
 ## 待投
-::: details 腾讯
 
-:::
 
-::: details 联想（4.1晚 Java开发工程师）
+::: details 联想（4.1晚-Java开发工程师）
 联想集团 24届春招&25届可转正实习同步开启<br/>
 【企业介绍】联想是全球智能设备的领导厂商，是企业数字化和智能化解决方案的全球顶级供应商，2022/23财年，联想集团的整体营业额已达4240亿人民币<br/>
 【投递链接】[https://talent.lenovo.com.cn/home](https://talent.lenovo.com.cn/home)<br/>
@@ -41,7 +39,9 @@ password: 0e0d738a29f36c6ad4b53a10ec010489
 【特别说明】本次招聘计划的HC很多，欢迎大家踊跃投递！
 :::
 
+::: details 腾讯
 
+:::
 
 
 ## 未投
