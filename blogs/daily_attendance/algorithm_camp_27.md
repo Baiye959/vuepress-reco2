@@ -4,7 +4,7 @@ date: 2024/04/01
 categories:
  - 打卡
 ---
-::: warning 待完成
+::: info 交作业
 [39.组合总和](/blogs/algorithm/leetcode39.md)<br/>
 [40.组合总和II](/blogs/algorithm/leetcode40.md)<br/>
 [131.分割回文串](/blogs/algorithm/leetcode131.md)

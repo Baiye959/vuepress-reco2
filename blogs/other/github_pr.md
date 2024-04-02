@@ -6,6 +6,8 @@ categories:
 ---
 ::: info
 根据[代码随想录算法训练营第零天 | 打卡说明、提交PR说明](/blogs/daily_attendance/algorithm_camp_0.md)，给代码随想录提交一次PR
+
+已被采纳！
 :::
 
 1. fork原仓库
@@ -23,3 +25,5 @@ categories:
     ![](/image/2024031608.png)
 7. 提交PR完成！等待仓库管理者处理
     ![](/image/2024031609.png)
+8. 被采纳了！
+    ![](/image/2024040201.png)

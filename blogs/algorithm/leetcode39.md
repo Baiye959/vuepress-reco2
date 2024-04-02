@@ -40,4 +40,65 @@ candidates 的所有元素 互不相同
 1 <= target <= 40
 ```
 
+## Java基础补充（数组排序 Arrays.sort()）
+```java
+import java.util.Arrays;
+
+Arrays.sort(int[] a); // 从小到大
+Arrays.sort(int[] a, int fromIndex, int toIndex);
+Arrays.sort(T[] a, Comparator<? Super T> c); // 用Comparator接口实现自定义排序规则
+
+// 第三种举例 1
+//不能使用基本数据类型
+Integer[] arr = {5,4,7,9,2,12,54,21,1};
+//降序
+Arrays.sort(arr, new Comparator<Integer>() {
+        //重写compare方法，最好加注解，不加也没事
+    public int compare(Integer a, Integer b) {
+        //返回值>0交换
+        return b-a;
+    }
+});
+System.out.println(Arrays.toString(arr));    
+
+// 第三种举例 2
+//不能使用基本数据类型
+Integer[] arr = {5,4,7,9,2,12,54,21,1};
+//降序
+Arrays.sort(arr, (a, b) -> {
+    //返回值>0交换
+    return b-a;
+});
+System.out.println(Arrays.toString(arr));
+```
+
 ## 解题思路
+本题的重点是元素可重复被选取，为了不那么混乱，单个元素重复选取放在一起，比如222334555。<br/>
+为剪枝服务，可以把元素从小到大排序，这样如果当前和+当前元素大于target，就不用接着尝试了。
+
+```java
+class Solution {
+    List<List<Integer>> ret = new LinkedList<>();
+    List<Integer> path = new LinkedList<>();
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        Arrays.sort(candidates); // 从小到大排序
+        backtracking(candidates, target, path, 0, 0);
+        return ret;
+    }
+    public void backtracking(int[] candidates, int target, List<Integer> path, int k, int sum) { // 正在添加candidates[k]
+        if (sum == target) {
+            ret.add(new LinkedList(path));
+            return;
+        } else if (sum > target || k == candidates.length) {
+            return;
+        }
+
+        for (int i = k; i < candidates.length; i++) {
+            if (sum + candidates[i] > target) break;
+            path.add(candidates[i]);
+            backtracking(candidates, target, path, i, sum + candidates[i]);
+            path.remove(path.size() - 1);
+        }
+    }
+}
+```
