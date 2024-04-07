@@ -65,3 +65,4 @@ main(int argc, char **argv)
 ![](/image/2024032412.png)
 
 ## 体验nachos线程系统
+### nachos源代码阅读

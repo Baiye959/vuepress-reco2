@@ -50,7 +50,7 @@ export default defineUserConfig({
         children: [
           { text: "Linux基础使用方法", link: "/docs/linux/1" },
           { text: "八股速记", link: "/docs/interview/computer_networks_1" },
-          { text: "Nachos文档", link: "/docs/nachos/0" },
+          // { text: "Nachos文档", link: "/docs/nachos/0" },
         ],
       },
     ],
