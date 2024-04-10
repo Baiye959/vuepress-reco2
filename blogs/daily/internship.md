@@ -6,20 +6,12 @@ categories:
 password: 0e0d738a29f36c6ad4b53a10ec010489
 ---
 
-## 已投
-::: details 快付（3.22午-Java开发工程师-4.9下午一面）
-3.22厦大春招线下招聘会中投递<br/>
-简历中未写奖项，且纸质版含错别字<br/>
-已加HR微信，安排4月9号下午2：00的面试，地点思明望海路（软件园二期）23-3号楼 4层
+## 进行中
+::: details 华为（4.7晚-软件开发工程师-4.24晚7点机考）
+[机考题目](https://www.nowcoder.com/discuss/445247001081516032)
 :::
 
-::: details 快手（3.31晚-Java开发工程师-4.1HR初筛）
-[投递岗位](https://campus.kuaishou.cn/recruit/campus/e/#/campus/job-info/5993)<br/>
-[投递记录](https://campus.kuaishou.cn/recruit/campus/e/#/campus/my-apply)<br/>
-![](/image/2024033102.png)
-:::
-
-::: details 联想（4.1晚-Java开发工程师-4.1简历评估中）
+::: details 联想（4.1晚-Java开发工程师-4.10简历评估中）
 联想集团 24届春招&25届可转正实习同步开启<br/>
 【企业介绍】联想是全球智能设备的领导厂商，是企业数字化和智能化解决方案的全球顶级供应商，2022/23财年，联想集团的整体营业额已达4240亿人民币<br/>
 【投递链接】[https://talent.lenovo.com.cn/home](https://talent.lenovo.com.cn/home)<br/>
@@ -43,23 +35,15 @@ password: 0e0d738a29f36c6ad4b53a10ec010489
 :::
 
 
-## 未投
-::: details 米哈游（5月10日）
-🔥米哈游24春季（24届应届+25届暑期实习+25届及以后日常实习）校招启动<br/>
-【招聘对象】24&25届毕业生<br/>
-【岗位类别】程序&技术类、美术&表现类、国际化类、运营类 市场&商务类、产品策划类、质量管理类、综合类<br/>
-【网申截止时间】5月10日<br/>
-【内推链接】<br/>
-[miHoYo招聘官网](https://jobs.mihoyo.com/?recommendationCode=VDS2&isRecommendation=true#/campus/position)<br/>
-内推码 VDS2
+## 已结束
+::: details 快付（3.22午-Java开发工程师-4.9下午一面-拒绝面试）
+3.22厦大春招线下招聘会中投递<br/>
+简历中未写奖项，且纸质版含错别字<br/>
+已加HR微信，安排4月9号下午2：00的面试，地点思明望海路（软件园二期）23-3号楼 4层
 :::
 
-::: details 搜狐畅游
-⏰【2024.02.26】搜狐畅游24届春季校招&25届暑期实习启动<br/>
-【公司介绍】搜狐畅游是中国领先的游戏开发和运营商，为搜狐旗下全资子公司，深耕游戏研发、发行、出海等文娱产业。<br/>
-【招聘岗位】游戏开发类、游戏策划类、游戏测试类、业务支持类、平台开发类、游戏运营类、游戏美术类、平台职能类等<br/>
-【福利待遇】18天带薪年假、七险一金、14-16薪等超多福利<br/>
-【岗位城市】北京市及其他<br/>
-【内推链接】[https://app.mokahr.com/m/campus_apply/cyou-inc/42233?recommendCode=DSTzWvwQ#/jobs](https://app.mokahr.com/m/campus_apply/cyou-inc/42233?recommendCode=DSTzWvwQ#/jobs)<br/>
-【内推码】DSTzWvwQ（简历优先被筛选，加速流程推进）
+::: details 快手（3.31晚-Java开发工程师-简历被毙）
+[投递岗位](https://campus.kuaishou.cn/recruit/campus/e/#/campus/job-info/5993)<br/>
+[投递记录](https://campus.kuaishou.cn/recruit/campus/e/#/campus/my-apply)<br/>
+![](/image/2024033102.png)
 :::
