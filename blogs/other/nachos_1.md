@@ -5,6 +5,7 @@ categories:
  - other
 tags:
  - Nachos
+sticky: 4
 ---
 ::: info
 [Nachos英文文档.pdf](/file/Nachos英文文档.pdf)<br/>
