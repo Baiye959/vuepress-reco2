@@ -35,7 +35,7 @@ cd threads/
 
 写个hello熟悉一下环境
 
-```c++
+```cpp
 // hello.cc
 #include "hello.h"
 #include "system.h"
@@ -175,7 +175,7 @@ main(int argc, char **argv)
 
 将双向有序链表的测试放进`threadtest.cc`
 
-```c++
+```cpp
 void DllistTest0(void) // 测试双向有序链表
 {
     DEBUG('t', "Entering DllistTest0");
@@ -210,7 +210,7 @@ ThreadTest()
 | -t   | int threadNum | 创建的并行线程数量        |
 | -n   | int oprNum    | 链表插入并删除的节点数量     |
 
-```c++
+```cpp
 // threadtest.cc
 int testnum = 1; // 测试编号
 int threadNum = 1; // 创建的并行线程数量
@@ -269,7 +269,7 @@ main(int argc, char **argv)
 
 #### 添加测试启动函数（类似ThreadTest1函数）
 
-```c++
+```cpp
 // threadtest.cc
 char * getName(int i) {
     switch (i) {
@@ -306,7 +306,7 @@ void toDllistTest(VoidFunctionPtr func) {
 
 #### 问题一：共享内存——并行执行时一个线程可能删除／修改其余线程插入的元素
 
-```c++
+```cpp
 void DllistTest1(int which)
 {
     printf("Inserting items in thread %d\n", which);
@@ -322,11 +322,11 @@ void DllistTest1(int which)
 
 线程1插入节点→强制切换至线程2→线程2插入节点→切换至线程1→线程1删除节点→由于线程1和线程2共用一个链表，此时线程1删除的节点有可能是线程2插入的节点。
 
-#### **问题二：**覆盖——并行的线程在链表同一个地方插入元素，导致其中一个被覆盖
+#### 问题二：覆盖——并行的线程在链表同一个地方插入元素，导致其中一个被覆盖
 
 测试
 
-```c++
+```cpp
 // threadtest.cc
 void DllistTest2(int which) { // 覆盖
     DEBUG('t', "Entering DllistTest2");
@@ -390,9 +390,9 @@ DLList::SortedInsert2(void *item, int sortKey, int which) {
 
 线程1准备向链表中某一位置插入数据→线程2 准备向链表同一位置插入数据→线程1插入→线程2插入。线程1的插入被线程2的插入覆盖。
 
-#### **问题三：**非法删除——并行的线程准备删除链表中同一个元素，导致段错误
+#### 问题三：非法删除——并行的线程准备删除链表中同一个元素，导致段错误
 
-```c++
+```cpp
 // threadtest.cc
 void DllistTest3(int which) { // 非法删除
     DEBUG('t', "Entering DllistTest3");
@@ -441,9 +441,9 @@ DLList::Remove2(int *keyPtr) {
 
 线程1准备删除链表中的某个数据→线程2准备删除链表中的同一个数据→线程2删除数据→线程1删除数据。线程1访问到野指针或空指针，发生段错误。
 
-#### **问题四：**断链——并行的线程在同一个地方插入元素，导致元素指针发生不一致
+#### 问题四：断链——并行的线程在同一个地方插入元素，导致元素指针发生不一致
 
-```c++
+```cpp
 // threadtest.cc
 void DllistTest4(int which) { // 断链测试
     DEBUG('t', "Entering DllistTest4");
@@ -503,9 +503,9 @@ DLList::SortedInsert3(void *item, int sortKey) {
 
 线程2要往开头（记为开头a）插入数据e1→强制切换至线程1→线程1向开头a插入若干个元素→切回线程2→线程2向开头a插入数据e1。此时线程1在开头a前插入的元素链断了，开头只插入了数据e1。
 
-#### **问题五：**乱序插入——并行的线程在同一个地方插入元素，导致元素位置颠倒，键值大的在前
+#### 问题五：乱序插入——并行的线程在同一个地方插入元素，导致元素位置颠倒，键值大的在前
 
-```c++
+```cpp
 // threadtest.cc
 void DllistTest5(int which) { // 断链测试
     DEBUG('t', "Entering DllistTest5");
