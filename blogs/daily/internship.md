@@ -11,6 +11,10 @@ password: 0e0d738a29f36c6ad4b53a10ec010489
 [机考题目](https://www.nowcoder.com/discuss/445247001081516032)
 :::
 
+::: details 西山居（4.13早-游戏开发-4.13初筛）
+[投递进度](https://app.mokahr.com/m/candidate/applications/deliver-query/xishanju)
+:::
+
 ::: details 联想（4.1晚-Java开发工程师-4.10简历评估中）
 联想集团 24届春招&25届可转正实习同步开启<br/>
 【企业介绍】联想是全球智能设备的领导厂商，是企业数字化和智能化解决方案的全球顶级供应商，2022/23财年，联想集团的整体营业额已达4240亿人民币<br/>

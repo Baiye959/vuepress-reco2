@@ -8,7 +8,10 @@ tags:
 sticky: 4
 ---
 ::: info
-[Nachos英文文档.pdf](/file/Nachos英文文档.pdf)<br/>
+[Nachos英文文档.pdf](/file/Nachos英文文档.pdf)
+
+本次实验的目的在于对nachos进行熟悉，并初步体验nachos下的并发程序设计。<br/>
+实验内容分三部分：安装nachos；用C++实现双向有序链表；在nachos系统中使用你所写的链表程序并演示一些并发错误。
 :::
 
 ## 一、熟悉nachos
