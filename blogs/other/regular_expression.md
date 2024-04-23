@@ -72,12 +72,6 @@ println(m.replaceAll("").trim())
 ## 常见情景
 ### 18位身份证的严格验证（含真实性校验）
 ```java
-/** 
- * 18位身份证校验,比较严格校验 
- * @author lyl 
- * @param idCard 
- * @return 
- */  
 public static boolean is18ByteIdCardComplex(String idCard){  
     Pattern pattern1 = Pattern.compile("^(\\d{6})(19|20)(\\d{2})(1[0-2]|0[1-9])(0[1-9]|[1-2][0-9]|3[0-1])(\\d{3})(\\d|X|x)?$");   
     Matcher matcher = pattern1.matcher(idCard);  
@@ -116,7 +110,7 @@ public static boolean is18ByteIdCardComplex(String idCard){
 }  
 ```
 
-### Java自带注解验证手机号 @Pattern + @Valid（本条未测试过）
+### Java自带注解验证手机号 @Pattern + @Valid（仅记录，未使用过）
 `controller`处需要加上`@Valid`注解，不然不会抛异常
 ```java
 import javax.validation.constraints.Pattern;
