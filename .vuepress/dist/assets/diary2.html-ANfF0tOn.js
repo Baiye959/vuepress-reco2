@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3cd80446","path":"/blogs/daily/diary2.html","title":"日记2📗","lang":"en-US","frontmatter":{"title":"日记2📗","date":"2024/04/26","categories":["日常"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/daily/diary2.md"}');export{t as data};
