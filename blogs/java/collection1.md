@@ -8,6 +8,13 @@ tags:
 ---
 ::: info
 根据[《阿里巴巴Java开发手册（终极版）》](https://developer.aliyun.com/ebook/386)总结了关于集合使用常见的注意事项以及其具体原理。
+
+1. 集合判空：判断所有集合内部的元素是否为空，使用 `isEmpty()` 方法，而不是 `size()==0` 的方式。
+2. 集合转Map：在使用 `java.util.stream.Collectors` 类的 `toMap()` 方法转为 `Map` 集合时，一定要注意当 `value` 为 `null` 时会抛 `NPE` 异常。
+3. 集合遍历：不要在 **foreach** 循环里进行元素的 `remove/add` 操作。`remove` 元素请使用 `Iterator` 方式，如果并发操作，需要对 `Iterator` 对象加锁。
+4. 集合去重：可以利用 `Set` 元素唯一的特性，可以快速对一个集合进行去重操作，避免使用 `List` 的 `contains()` 进行遍历去重或者判断包含操作。
+5. 集合转数组：使用集合转数组的方法，必须使用集合的 `toArray(T[] array)`，传入的是类型完全一致、长度为 0 的空数组。
+6. 数组转集合：使用工具类 `Arrays.asList()` 把数组转换成集合时，不能使用其修改集合相关的方法，它的 `add/remove/clear` 方法会抛出 `UnsupportedOperationException` 异常。
 :::
 
 ## 集合判空
