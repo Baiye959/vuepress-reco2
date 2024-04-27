@@ -3,8 +3,8 @@ title: MYDB | 项目结构
 date: 2024/03/24
 categories:
  - other
-tags:
- - MYDB
+# tags:
+#  - MYDB
 ---
 ::: info
 **TM 通过维护 XID 文件来维护事务的状态，并提供接口供其他模块来查询某个事务的状态。**
