@@ -22,6 +22,7 @@ AOP也是以IoC为基础，指面向切面编程，是抽象化的面向对象
 
 创建DataConfig类作为示例，如下：
 ```java
+// 设置DataConfig类
 // src/main/java/com/baiye959/ioc/DataConfig.java
 package com.baiye959.ioc;
 
@@ -36,8 +37,8 @@ public class DataConfig {
 }
 ```
 
-### 手动创建对象（作为对比）
 ```java
+// 手动创建对象
 // src/main/java/com/baiye959/ioc/Test.java
 package com.baiye959.ioc;
 
@@ -53,8 +54,8 @@ public class Test {
 }
 ```
 
-### 使用IoC的依赖
 ```xml
+<!-- 使用IoC需添加依赖 -->
 <!-- pom.xml -->
 <dependency>
     <groupId>org.springframework</groupId>
@@ -154,7 +155,7 @@ public class Test {
 ApplicationContext context = new AnnotationConfigApplicationContext("com.baiye959.configuration");
 ```
 
-### 扫包+注解（方法二）
+#### 扫包+注解（方法二）
 更简单的方式，不再需要依赖于XML或者配置类，而是直接将bean的创建交给目标类，在目标类中添加注解来创建
 
 ```java
