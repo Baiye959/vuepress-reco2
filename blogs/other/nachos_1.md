@@ -1,11 +1,10 @@
 ---
 title: Nachos | 实验一 体验Nachos下的并发程序设计
-date: 2024/03/16
+date: 2024/04/12
 categories:
  - other
 tags:
  - Nachos
-sticky: 4
 ---
 ::: info
 [Nachos英文文档.pdf](/file/Nachos英文文档.pdf)

@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-e46372c8","path":"/blogs/java/collection1.html","title":"Java集合使用注意事项总结","lang":"en-US","frontmatter":{"title":"Java集合使用注意事项总结","date":"2024/04/27","categories":["Java"],"tags":["JavaSE"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/java/collection1.md"}');export{a as data};
