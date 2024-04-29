@@ -1,5 +1,5 @@
 ---
-title: Java Lambda表达式
+title: JavaSE | Java Lambda表达式
 date: 2024/04/29
 categories:
  - Java

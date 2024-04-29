@@ -1,5 +1,5 @@
 ---
-title: Java面向对象基础
+title: JavaSE | Java面向对象基础
 date: 2024/03/07
 categories:
  - Java
