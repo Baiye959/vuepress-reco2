@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,a as _}from"./app-jA2MNLc6.js";const s={},c=_("p",null,"数据库1",-1),o=[c];function n(r,l){return t(),a("div",null,o)}const f=e(s,[["render",n],["__file","database_1.html.vue"]]);export{f as default};

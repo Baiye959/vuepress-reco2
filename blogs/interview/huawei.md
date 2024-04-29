@@ -2,7 +2,7 @@
 title: 华为机考
 date: 2024/03/01
 categories:
- - 日常
+ - 就业
 password: 0e0d738a29f36c6ad4b53a10ec010489
 ---
 ::: info
