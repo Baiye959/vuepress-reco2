@@ -14,3 +14,6 @@ categories:
 - [仙剑奇侠传三](https://www.yhluoxu.com/dmdetail/eva8H.html)
 - [粉雄救兵](https://www.acfun.cn/v/ac41842060_1?shareUid=28062935)
 - [粉雄救兵解说](https://www.bilibili.com/video/BV1eU4y1T7D3)
+
+待播列表
+- 自梳
