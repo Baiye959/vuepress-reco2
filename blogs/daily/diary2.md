@@ -21,4 +21,6 @@ password: 0e0d738a29f36c6ad4b53a10ec010489
 
 :::details ✍🏻2024.05.06
 换一个链接[《On Java 8》中文版](https://njuics.github.io/OnJava8/#/)
+
+发现已经出版闭源了，买一本[On Java 中文版（基础卷）](https://www.ituring.com.cn/book/2935)
 :::
