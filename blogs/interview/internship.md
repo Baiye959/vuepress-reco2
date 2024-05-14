@@ -10,6 +10,11 @@ password: 0e0d738a29f36c6ad4b53a10ec010489
 [2024年找暑期实习经验分享](https://articles.zsxq.com/id_i8ift4dj2x5s.html)
 :::
 
+## 投递
+- [博世](https://app.mokahr.com/campus-recruitment/bosch/75909?sourceToken=fe1a5b7206bffe4a353187e7d3e874bd&previewKey=baff66c17d3242258454126a050b31fa4e89696edea6493c873d7976577a7fac#/candidateHome/applications)
+- [云鲸智能](https://careers.narwal.com/personal/deliveryRecord)
+
+
 ## 进行中
 ::: details 华为（4.7晚-软件开发工程师-4.25性格测评）
 [机考题目](https://www.nowcoder.com/discuss/445247001081516032)<br/>

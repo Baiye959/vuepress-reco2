@@ -4,6 +4,10 @@ date: 2024/02/26
 categories:
  - 算法
 ---
+:::info
+[力扣链接](https://leetcode.cn/problems/binary-search/)
+:::
+
 ## 27. 移除元素
 
 给你一个数组 `nums` 和一个值 `val`，你需要 <b>原地</b> 移除所有数值等于 `val` 的元素，并返回移除后数组的新长度。

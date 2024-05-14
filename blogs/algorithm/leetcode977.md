@@ -4,6 +4,10 @@ date: 2024/02/26
 categories:
  - 算法
 ---
+:::info
+[力扣链接](https://leetcode.cn/problems/squares-of-a-sorted-array/)
+:::
+
 ## 977. 有序数组的平方
 给你一个按 <b>非递减顺序</b> 排序的整数数组 `nums`，返回 <b>每个数字的平方</b> 组成的新数组，要求也按 <b>非递减顺序</b> 排序。
  
