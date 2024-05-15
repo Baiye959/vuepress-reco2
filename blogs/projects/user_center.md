@@ -319,27 +319,27 @@ java -jar \user-center-backend-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
 
 ### Docker部署
 #### 理论
-docker是容器，可以理解为软件安装包，可以将项目的环境（比如java、nginx)和项目的代码一起打包成镜像，所有人都能下载镜像，更容易分发和移植。
+docker是容器，可以理解为软件安装包，可以将项目的环境（比如java、nginx）和项目的代码一起打包成镜像，所有人都能下载镜像，更容易分发和移植。再启动项目时，不需要敲一大堆命令，而是直接下载镜像、启动镜像就可以了。
 
-再启动项目时，不需要敲一大堆命令，而是直接下载镜像、启动镜像就可以了。
-
-Docker安装：https\:/www\.docker.com/get-started/ 或者宝塔安装
+Docker安装：https://www.docker.com/get-started/ 或者宝塔安装
 
 
-Dockerfile用于指定构建Docker镜像的方法。
-
+Dockerfile用于指定构建Docker镜像的方法。<br/>
 Dockerfile一般情况下不需要完全从0自己写，可以去github、gitee等托管平台参考同类项目（比如
-springboot）
+springboot）<br/>
+[官方文档](https://docs.docker.com/reference/dockerfile/)<br/>
+[Docker Dockerfile | 菜鸟教程](https://www.runoob.com/docker/docker-dockerfile.html)
 
 Dockerfile编写：
-- FROM依赖的基础镜像
-- NORKDIR工作目录
-- COPY从本机复制文件
-- RUN执行命令
-- CMD/ENTRYPOINT(附加额外参数)指定运行容器时默认执行的命令识
+- `FROM`依赖的基础镜像（在[DockerHub官网](https://hub.docker.com/)上找）
+- `NORKDIR`工作目录
+- `COPY`从本机复制文件
+- `RUN`执行命令
+- `CMD/ENTRYPOINT`(附加额外参数)指定运行容器时默认执行的命令
+
 
 #### 实现
-根据Dockerfile构建镜像：
+根据Dockerfile构建镜像（[Docker build 命令 | 菜鸟教程](https://www.runoob.com/docker/docker-build-command.html)）：
 ```bash
 # 后端
 docker build -t user-center-backend:v0.0.1.

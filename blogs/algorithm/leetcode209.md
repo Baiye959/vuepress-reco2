@@ -4,6 +4,10 @@ date: 2024/02/27
 categories:
  - 算法
 ---
+:::info
+[力扣链接](https://leetcode.cn/problems/minimum-size-subarray-sum/)
+:::
+
 ## 209. 长度最小的子数组
 
 给定一个含有 `n` 个正整数的数组和一个正整数 `target` 。
