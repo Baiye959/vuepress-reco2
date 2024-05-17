@@ -270,6 +270,81 @@ edges[i] !=i<br/>
 3. 排序
 4. 输出
 
+```java
+import java.util.*;
+
+public class Test3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] edges = new int[n]; // i -> edges[i]
+        int[] in = new int[n]; // 顶点i的入度
+        int[] nums = new int[n]; // 内聚值
+        for (int i = 0; i < n; i++) {
+            edges[i] = sc.nextInt();
+            in[edges[i]] ++;
+        }
+//        sc.close();
+
+        Queue<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            if (in[i] == 0) queue.add(i);
+        }
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                int cur = queue.peek();
+                nums[edges[cur]] = nums[cur] + 1;
+                if (in[edges[cur]] == 0) {
+                    queue.add(edges[cur]);
+                }
+            }
+        }
+
+        List<List<Integer>> rings = new LinkedList<>(); // 存储环
+        List<Integer> values = new LinkedList<>(); // 环的内聚值
+        List<Integer> max_nos = new LinkedList<>(); // 环中最大的编号
+
+        // 查找环，并计算环的相关属性
+        for (int i = 0; i < n; i++) {
+            if (in[i] == 0) continue; // 跳过已访问的节点
+            int cur = i, value = 0, max_no = i;
+            List<Integer> path = new LinkedList<>();
+            while (in[cur] != 0) { // 循环直到回到环的起点
+                value += nums[cur];
+                path.add(cur);
+                in[cur] = 0; // 已访问
+                cur = edges[cur];
+                max_no = Math.max(max_no, cur);
+            }
+            rings.add(new LinkedList(path));
+            max_nos.add(max_no);
+            values.add(path.size() - value);
+        }
+
+        // 根据内聚值和环中最大节点编号排序
+        List<Integer> idx = new LinkedList<>();
+        for (int i = 0; i < values.size(); i++) {
+            idx.add(i);
+        }
+        idx.sort((a, b) -> values.get(a).equals(values.get(b))
+                ? max_nos.get(b.compareTo(max_nos.get(a)))
+                : values.get(b).compareTo(values.get(a)));
+
+        // 输出内聚值最大的微服务群组
+        List<Integer> path = rings.get(idx.get(0));
+        int start = Collections.min(path);
+        for (int i = 0; i < path.size(); i++) {
+            if (i > 0) System.out.printf(" ");
+            System.out.println(start);
+            start = edges[start];
+        }
+        sc.close();
+
+    }
+}
+
+```
 
 ## 机考相关补充
 ### Java自定义排序
