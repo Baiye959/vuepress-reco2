@@ -1,1 +1,0 @@
-import{_ as e,o,c as t,a as _}from"./app-w9FD6_In.js";const s={},c=_("p",null,"操作系统2",-1),n=[c];function a(r,l){return o(),t("div",null,n)}const f=e(s,[["render",a],["__file","os_2.html.vue"]]);export{f as default};
