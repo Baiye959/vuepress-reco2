@@ -12,6 +12,14 @@ export default defineUserConfig({
     ['meta', { rel: 'keywords', content: 'Baiye959, Blog, Java' }]
   ],
   theme: recoTheme({
+    commentConfig: {
+      type: 'valine',
+      options: {
+        appId: 'LEsZcQOLjkMLjO6JM42Egt9a-gzGzoHsz', // your appId
+        appKey: 'T6ULAEi5SYRDdQ26cwx3bioP', // your appKey
+        hideComments: false, // 全局隐藏评论，默认 false
+      },
+    },
     autoSetSeries: true,
     style: "@vuepress-reco/style-default",
     // logo: "/glass.ico",
@@ -44,6 +52,7 @@ export default defineUserConfig({
       { icon: 'Categories', text: "分类", link: "/categories/other/1/" },
       // { text: "Tags", link: "/tags/tag1/1/" },
       { icon: 'Time', text: "时间轴", link: "/timeline" },
+      { icon: 'Chat', text: "留言板", link: "/blogs/other/message-board.html" },
       {
         icon: 'Document',
         text: "文档",
