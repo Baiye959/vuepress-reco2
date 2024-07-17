@@ -5,7 +5,7 @@ modules:
   - Blog
   - Footer
 bannerBrand:
-  bgImage: '/freecompress-snow.png'
+  bgImage: '/freecompress-earth.png'
   # bgImage: '/bg.svg'
   # title: '『万丈高楼平地起』勿在浮沙筑高台'
   # description: 且视他人之疑目如盏盏鬼火，大胆地去走你的夜路
