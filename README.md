@@ -11,7 +11,7 @@ bannerBrand:
   # description: 且视他人之疑目如盏盏鬼火，大胆地去走你的夜路
   buttons:
     - { text: Github Page, link: 'https://github.com/Baiye959' }
-    - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
+    - { text: Leave a message, link: 'blogs/other/message-board.html', type: 'plain' }
   # socialLinks:
     # - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
 blog:
