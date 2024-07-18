@@ -13,7 +13,7 @@ bannerBrand:
     - { text: Github Page, link: 'https://github.com/Baiye959' }
     - { text: Leave a message, link: 'blogs/other/message-board.html', type: 'plain' }
   # socialLinks:
-    # - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
+  #   - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
 blog:
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/Baiye959' }

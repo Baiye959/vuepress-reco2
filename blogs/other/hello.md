@@ -48,7 +48,7 @@ docker run -d -p 9090:8080 webhooks-app
 
 在Github仓库中添加Webhooks，Payload URL填写"IP:9090/webhooks"，Content type: "application/json"，Secret为空（暂未处理），其他选项按需选择。
 
-## 当前应急方案
+## 应急方案
 本站部署暂未完成，应急方案如下：<br/>
 1. 在本地（windows）进行构建，推送到github仓库
 2. 云服务器（ubuntu20.04）上apache2+crontab定时执行git pull脚本
