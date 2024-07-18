@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-7b17dd70","path":"/docs/xmuai/python_2.html","title":"2. 语言元素","lang":"en-US","frontmatter":{"title":"2. 语言元素","date":"2024/01/24"},"headers":[],"git":{"createdTime":1706087674000,"updatedTime":1706087674000,"contributors":[{"name":"Baiye959","email":"3383522774@qq.com","commits":1}]},"filePathRelative":"docs/xmuai/python_2.md"}');export{t as data};
