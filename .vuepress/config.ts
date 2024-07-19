@@ -17,7 +17,23 @@ export default defineUserConfig({
       options: {
         appId: 'LEsZcQOLjkMLjO6JM42Egt9a-gzGzoHsz', // your appId
         appKey: 'T6ULAEi5SYRDdQ26cwx3bioP', // your appKey
-        hideComments: false, // 全局隐藏评论，默认 false
+        // hideComments: false, // 全局隐藏评论，默认 false
+        // 这里设置CDN
+        emojiCDN: 'https://baiye959.cn/emoji/', 
+        // 表情title和图片映射
+        emojiMaps: {
+            "bluff":"bluff_small.png",
+            "guilty":"guilty_small.png",
+            "heart":"heart_small.png",
+            "injured":"injured_small.png",
+            "melt":"melt_small.png",
+            "sad":"sad_small.png",
+            "smile":"smile_small.png",
+            "speechless":"speechless_small.png",
+            "stand":"stand_small.png",
+            "stare":"stare_small.png",
+            // ... 更多表情
+        } 
       },
     },
     autoSetSeries: true,
