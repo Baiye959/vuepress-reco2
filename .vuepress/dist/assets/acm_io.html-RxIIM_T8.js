@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-fe9230c2","path":"/blogs/algorithm/carl/acm_io.html","title":"ACM 模式输入输出练习","lang":"en-US","frontmatter":{"title":"ACM 模式输入输出练习","date":"2024/03/02","categories":["算法"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/algorithm/carl/acm_io.md"}');export{t as data};
