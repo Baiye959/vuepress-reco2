@@ -1,5 +1,5 @@
 ---
-title: labuladong | 双指针技巧秒杀七道链表题目
+title: 算法系列二 | 双指针技巧秒杀七道链表题目
 date: 2024/08/02
 categories:
  - 算法

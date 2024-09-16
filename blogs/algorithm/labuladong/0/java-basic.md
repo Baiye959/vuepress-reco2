@@ -1,5 +1,5 @@
 ---
-title: labuladong | 写算法题所需的 Java 基础
+title: 算法系列二 | 写算法题所需的 Java 基础
 date: 2024/08/01
 categories:
  - 算法
