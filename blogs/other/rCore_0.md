@@ -4,7 +4,7 @@ date: 2024/07/26
 categories:
  - other
 tags:
- - rCore
+ - 操作系统
 ---
 ::: info
 [rCore-Tutorial-B0ok-v33.6.0-alpha.1文档](https://deathwish5.github.io/rCore-Tutorial-Book-v3/chapter0/index.html)

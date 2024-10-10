@@ -4,7 +4,7 @@ date: 2024/04/12
 categories:
  - other
 tags:
- - Nachos
+ - 操作系统
 ---
 ::: info
 [Nachos英文文档.pdf](/file/Nachos英文文档.pdf)

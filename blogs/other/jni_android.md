@@ -3,6 +3,8 @@ title: 利用JNI在安卓项目中使用CPP代码
 date: 2024/10/09
 categories:
  - other
+tags:
+ - Android
 ---
 ## 在安卓项目中使用现有cpp代码流程
 1. 新建native-cpp安卓项目

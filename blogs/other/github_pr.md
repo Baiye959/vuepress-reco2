@@ -3,6 +3,8 @@ title: 给代码随想录提交一次PR
 date: 2024/03/16
 categories:
  - other
+tags:
+ - Git
 ---
 ::: info
 根据[代码随想录算法训练营第零天 | 打卡说明、提交PR说明](/blogs/daily_attendance/algorithm_camp_0.md)，给代码随想录提交一次PR
