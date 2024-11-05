@@ -1,0 +1,1 @@
+import{_ as l,o as e,c as i,e as t}from"./app-QCOoeKB8.js";const o={},c=t("<p>待重播列表</p><ul><li>仙剑奇侠传三</li><li>粉雄救兵</li><li>老友记</li><li>迷宫饭</li><li>天地创造设计部</li></ul><p>待播列表</p><ul><li>自梳</li><li>堕落的审判</li></ul>",4),_=[c];function s(n,r){return e(),i("div",null,_)}const u=l(o,[["render",s],["__file","movie.html.vue"]]);export{u as default};
